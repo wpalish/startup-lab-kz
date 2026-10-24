@@ -1,0 +1,12 @@
+{
+  "name": "startup-lab-kz",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test apps/sabaqloop/tests/*.test.js",
+    "build": "node scripts/build.mjs",
+    "preview": "python3 -m http.server 8781 --bind 127.0.0.1 --directory _site"
+  },
+  "engines": {"node": ">=22"}
+}

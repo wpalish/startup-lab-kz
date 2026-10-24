@@ -1,0 +1,418 @@
+{
+  "scope": "37 researched channels, not an exhaustive global list",
+  "checked_at": "2026-10-24",
+  "items": [
+    {
+      "id": 1,
+      "title": "Acquire.com — SaaS/AI-бизнес целиком.",
+      "details": "Без выручки допускают работающие, публично размещённые и отличимые SaaS/AI: рабочая регистрация, основные функции, передаваемые активы. Репозиторий без работающего размещения, макет, страница ожидания и смена логотипа у типовой AI-обёртки не достаточны. SabaqLoop 0.1 не заявлен как соответствующий: он локальный, без аккаунтов и коммерческой проверки. Одобрение не гарантировано.\nhttps://help.acquire.com/what-pre-revenue-businesses-are-allowed",
+      "official_sources": [
+        "https://help.acquire.com/what-pre-revenue-businesses-are-allowed"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 2,
+      "title": "Flippa — бизнесы, SaaS, AI-приложения, приложения/плагины; есть раздел Projects & Concepts.",
+      "details": "Возможен более ранний актив, но нельзя записывать непроверенные цифры и продавать один и тот же эксклюзивный актив несколько раз. Перед листингом проверить цену размещения, комиссию, проверку владельца и порядок передачи. KZ-выплата конкретному владельцу не подтверждена.\nhttps://flippa.com/sell",
+      "official_sources": [
+        "https://flippa.com/sell"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 3,
+      "title": "Microns — работающий прибыльный проект с платящими клиентами.",
+      "details": "Официальная страница требует минимум пять месяцев платящих клиентов; проекты без выручки не подходят. Поздний этап после проверки спроса. KZ-оформление сделки не проверено.\nhttps://www.microns.io/sell-your-startup",
+      "official_sources": [
+        "https://www.microns.io/sell-your-startup"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 4,
+      "title": "SideProjectors — покупка и продажа side projects, поиск сооснователя.",
+      "details": "Кандидат для самостоятельного проекта с демо. Страница площадки подтверждает назначение, но не гарантирует проверку покупателя, escrow или возможность выплаты в KZ. Условия сделки проверяются отдельно.\nhttps://www.sideprojectors.com/",
+      "official_sources": [
+        "https://www.sideprojectors.com/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 5,
+      "title": "LittleExits — подборка небольших бизнесов и проектов на продажу.",
+      "details": "Публичный каталог действует. Требования к продавцу, передаче и KZ-платежам отдельно не подтверждены; кандидат, а не готовый канал приёма денег.\nhttps://littleexits.com/",
+      "official_sources": [
+        "https://littleexits.com/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 6,
+      "title": "BuySellStartups — каталог микростартапов для прямых сделок.",
+      "details": "На сайте заявлена нулевая комиссия площадки. Это не подтверждение отсутствия расходов на платёж, договор и передачу. Условия KZ и фактическая проверка сторон не проверены.\nhttps://www.buysellstartups.com/",
+      "official_sources": [
+        "https://www.buysellstartups.com/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 7,
+      "title": "IndieExit — небольшой SaaS, приложения, side projects и другие цифровые активы.",
+      "details": "Открытая страница действует; назначение подтверждено. Листинг и расчёт с продавцом из KZ не тестировались.\nhttps://indieexit.com/",
+      "official_sources": [
+        "https://indieexit.com/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 8,
+      "title": "Investors Club — продажа цифрового бизнеса.",
+      "details": "Seller URL переводит на регистрацию; публичные условия в доступном просмотре не подтверждены. Оставлен как кандидат с ограниченными данными, не основной канал для первого релиза.\nhttps://investors.club/sell/",
+      "official_sources": [
+        "https://investors.club/sell/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 9,
+      "title": "Empire Flippers — брокер работающих интернет-бизнесов.",
+      "details": "Рассматривать после устойчивой экономики и подтверждённой отчётности. Свежий репозиторий не равен подходящему бизнесу. Текущий минимальный порог и KZ-расчёт не подтверждены.\nhttps://empireflippers.com/sell-your-site/\n\nПАКЕТЫ КОДА, ШАБЛОНЫ И РАСШИРЕНИЯ",
+      "official_sources": [
+        "https://empireflippers.com/sell-your-site/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 10,
+      "title": "Codester — скрипты, плагины, темы, исходники приложений.",
+      "details": "Продавцу заявлено 70% подходящей продажи; эксклюзивность не обязательна. Нужны пакет файлов, реальные скриншоты, документация, описание ограничений, права на всё содержимое; каждый новый продукт проходит проверку. В авторской справке указаны PayPal или банковский перевод раз в месяц; счёт конкретного продавца в KZ не проверен. Наш первый приоритет для продажи повторяемой лицензии на код после подготовки условий.\nhttps://www.codester.com/info/seller/\nhttps://www.codester.com/info/author",
+      "official_sources": [
+        "https://www.codester.com/info/seller/",
+        "https://www.codester.com/info/author"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 11,
+      "title": "Envato Market: CodeCanyon / ThemeForest — код и темы.",
+      "details": "Официальная справка, обновлённая 25.09.2026: приём заявок авторов приостановлен, новые авторы только по приглашению. Поэтому нельзя строить немедленный план на открытой регистрации в CodeCanyon. Это одна экосистема, а не два независимых подтверждённых канала.\nhttps://help.market.envato.com/hc/en-us/articles/10520135882393-How-can-I-become-an-author-and-sell-my-work-on-Envato-Market",
+      "official_sources": [
+        "https://help.market.envato.com/hc/en-us/articles/10520135882393-How-can-I-become-an-author-and-sell-my-work-on-Envato-Market"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 12,
+      "title": "itch.io — загружаемые проекты, инструменты, игровые материалы.",
+      "details": "Позволяет назначать цену и долю площадки; два режима: напрямую через собственный PayPal/Stripe либо сбор площадкой с последующей выплатой. Не специализирован на образовательном B2B. KZ-получение денег требует проверки выбранного режима; не считать наличие платёжных методов покупателей подтверждением допуска продавца.\nhttps://itch.io/docs/creators/faq\nhttps://itch.io/docs/creators/payments",
+      "official_sources": [
+        "https://itch.io/docs/creators/faq",
+        "https://itch.io/docs/creators/payments"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 13,
+      "title": "Bubble Marketplace — Bubble-шаблоны и плагины.",
+      "details": "Подходит только если продукт специально реализован для Bubble. Самостоятельный JS-архив SabaqLoop не становится Bubble-шаблоном автоматически. KZ-выплаты не проверены.\nhttps://bubble.io/marketplace",
+      "official_sources": [
+        "https://bubble.io/marketplace"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 14,
+      "title": "Framer Marketplace — шаблоны сайтов для Framer.",
+      "details": "Можно делать оригинальные витрины для ниш, но это отдельный тип продукта, не продажа всего SaaS. Потребуется формат Framer, собственный контент и соблюдение проверки автора. KZ-расчёт отдельно не подтверждён.\nhttps://www.framer.com/marketplace/",
+      "official_sources": [
+        "https://www.framer.com/marketplace/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 15,
+      "title": "Webflow Templates — оригинальные Webflow-шаблоны.",
+      "details": "Нужен шаблон в экосистеме и допуск автора; не универсальная площадка для любого исходного кода. KZ-выплата не проверена.\nhttps://webflow.com/templates",
+      "official_sources": [
+        "https://webflow.com/templates"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 16,
+      "title": "Notion Marketplace — шаблоны процессов, учебного клуба или подготовки к поступлению.",
+      "details": "Есть проверка публикаций. Прямая продажа требует допуска к платежам, но официально разрешена ссылка на внешнюю платформу оплаты для платного шаблона. KZ-допуск к прямому checkout Notion здесь не подтверждён. Это хороший формат небольшого дополнительного продукта, не замена платформе Unimatch.\nhttps://www.notion.com/help/selling-on-marketplace",
+      "official_sources": [
+        "https://www.notion.com/help/selling-on-marketplace"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 17,
+      "title": "Shopify — приложения и темы для магазинов.",
+      "details": "Требует реализации интеграции в Shopify, проверки и поддержки. Подходит будущим инструментам карточек товаров/магазинов. Перед разработкой проверить API, требования app review и выплату автору из KZ.\nhttps://www.shopify.com/partners",
+      "official_sources": [
+        "https://www.shopify.com/partners"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 18,
+      "title": "WooCommerce Marketplace — расширения WooCommerce.",
+      "details": "Подходит будущим оригинальным плагинам, а не обычному размещению независимого SaaS. Допуск партнёра, коммерческие правила и KZ-выплаты не проверены.\nhttps://woocommerce.com/partners/",
+      "official_sources": [
+        "https://woocommerce.com/partners/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 19,
+      "title": "Atlassian Marketplace — приложения для Jira/Confluence.",
+      "details": "Отдельный B2B-канал при создании соответствующей интеграции. Открыта официальная документация по продаже; применимость конкретного аккаунта и условия KZ требуют отдельной проверки.\nhttps://developer.atlassian.com/platform/marketplace/selling-on-marketplace/",
+      "official_sources": [
+        "https://developer.atlassian.com/platform/marketplace/selling-on-marketplace/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 20,
+      "title": "RapidAPI — продажа использования API.",
+      "details": "Официально есть paid, freemium и pay-per-use модели. Подходит выделенному API обработки, а не статическому приложению без API. Нужны сервер, квоты, ключи, поддержка и проверка расчётов продавца в KZ.\nhttps://docs.rapidapi.com/v2/docs/monetizing-your-api-on-rapidapicom\n\nВИТРИНА И ПРИЁМ ПЛАТЕЖЕЙ: ОНИ НЕ ОБЕЩАЮТ ПОКУПАТЕЛЕЙ",
+      "official_sources": [
+        "https://docs.rapidapi.com/v2/docs/monetizing-your-api-on-rapidapicom"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 21,
+      "title": "Lemon Squeezy — цифровые файлы, лицензии, подписки; Merchant of Record.",
+      "details": "Kazakhstan явно есть в официальном списке банковских выплат. Нужны проверка владельца, одобрение магазина/продукта и подходящий счёт. Наличие страны не равно одобренному аккаунту или полученной выплате. Подходит собственному продающему сайту после проверки.\nhttps://docs.lemonsqueezy.com/help/getting-started/supported-countries",
+      "official_sources": [
+        "https://docs.lemonsqueezy.com/help/getting-started/supported-countries"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 22,
+      "title": "Polar — продажа цифрового продукта и подписок; Merchant of Record.",
+      "details": "Kazakhstan явно указан в странах выплат. Polar использует Stripe Connect Express и прямо объясняет: доступность прямого Stripe Payments в стране для этой схемы не обязательна. Проверка аккаунта и продукта остаётся. Трафик продавец в основном приводит сам.\nhttps://polar.sh/docs/merchant-of-record/supported-countries",
+      "official_sources": [
+        "https://polar.sh/docs/merchant-of-record/supported-countries"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 23,
+      "title": "Paddle — Merchant of Record для software-бизнесов.",
+      "details": "Официальная политика допускает software-бизнесы из стран вне списка исключений; KZ в исключениях не найден. Это вывод из политики, а не прямая проверка выплат конкретному KZ-продавцу. Есть проверка сайта и бизнеса.\nhttps://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle",
+      "official_sources": [
+        "https://www.paddle.com/help/start/intro-to-paddle/which-countries-are-supported-by-paddle"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 24,
+      "title": "Gumroad — цифровые файлы и подписки.",
+      "details": "Подходит упаковке кода и инструкции, но способ выплаты владельцу из KZ не подтверждён доступной официальной страницей. Не отмечаем как готовый платёжный канал до отдельной проверки. Покупателей витрина сама не гарантирует.\nhttps://gumroad.com/help/article/13-getting-paid",
+      "official_sources": [
+        "https://gumroad.com/help/article/13-getting-paid"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 25,
+      "title": "Payhip — цифровые товары, курсы и членство.",
+      "details": "Функции витрины подтверждены, но пригодность подключаемого платёжного провайдера и KZ-выплаты конкретному владельцу не проверены. Кандидат после проверки платежей.\nhttps://www.payhip.com/",
+      "official_sources": [
+        "https://www.payhip.com/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 26,
+      "title": "Whop — цифровые продукты, сообщества, software и собственная торговая витрина.",
+      "details": "Площадка действует, но актуальная официальная выплата продавцу из KZ в этом исследовании не подтверждена. Не делать аккаунт основным расчётным каналом на основании одной страницы продаж.\nhttps://whop.com/sell/\n\nКонтрольная проверка: Kazakhstan отсутствует в списке стран прямого Stripe Payments. Это не отменяет поддержку KZ у Lemon Squeezy/Polar по их отдельной модели. Иностранное юрлицо или расходы для обходного подключения не создавались и не предлагаются как обязательный шаг.\nhttps://stripe.com/global\n\nСДЕЛКИ НА ПОДПИСКУ И ПОЖИЗНЕННЫЙ ДОСТУП",
+      "official_sources": [
+        "https://whop.com/sell/",
+        "https://stripe.com/global"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 27,
+      "title": "AppSumo — программный продукт и предложение для аудитории площадки.",
+      "details": "Требуется подача продукта и согласование партнёрских условий. Старые статьи с процентами не используем как текущий договор. Для будущих AI-функций нельзя продавать безлимитные API-затраты за однократную оплату без расчёта лимитов и экономики. SabaqLoop пока не отправлялся.\nhttps://appsumo.com/partner-apply/\nhttps://sell.appsumo.com/e/how-it-works",
+      "official_sources": [
+        "https://appsumo.com/partner-apply/",
+        "https://sell.appsumo.com/e/how-it-works"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 28,
+      "title": "Dealify — действующая витрина software deals.",
+      "details": "Возможный канал для готового стабильного продукта. Допуск продавца, поддержка, возвраты, комиссия и KZ-выплаты отдельно не проверены.\nhttps://www.dealify.com/",
+      "official_sources": [
+        "https://www.dealify.com/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 29,
+      "title": "DealMirror — действующая витрина software deals.",
+      "details": "Те же ограничения: сначала реальные функции и экономика предложения, затем проверка условий продавца. Не подтверждено, что принимает любой новый продукт.\nhttps://dealmirror.com/\n\nВНЕДРЕНИЕ ПОД КЛИЕНТА, А НЕ ПЕРЕПРОДАЖА БИЗНЕСА",
+      "official_sources": [
+        "https://dealmirror.com/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 30,
+      "title": "Upwork — разработка, настройка и интеграции по заказу.",
+      "details": "Можно продавать внедрение учебного модуля или внутреннего инструмента с точным объёмом работ. На официальной странице указаны Connects для большинства откликов и комиссии; бесплатный профиль не означает бесплатный поиск заказов. KZ-вывод средств конкретного аккаунта не проверялся.\nhttps://support.upwork.com/hc/en-us/articles/24492534968211-How-to-sign-up-as-a-freelancer-on-Upwork",
+      "official_sources": [
+        "https://support.upwork.com/hc/en-us/articles/24492534968211-How-to-sign-up-as-a-freelancer-on-Upwork"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 31,
+      "title": "Fiverr — пакетные услуги, например настройка и адаптация web-инструмента.",
+      "details": "Не выдавать существующий пакет за эксклюзивную заказную разработку. Страница начала продаж доступна; KZ-профиль, верификация и выплаты не проверялись.\nhttps://www.fiverr.com/start_selling",
+      "official_sources": [
+        "https://www.fiverr.com/start_selling"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 32,
+      "title": "Contra — профиль независимого специалиста, проекты и услуги.",
+      "details": "Подходит демонстрации реально работающего продукта и предложению адаптации. Применимость выплаты для KZ и конкретного аккаунта не проверена.\nhttps://contra.com/independent",
+      "official_sources": [
+        "https://contra.com/independent"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 33,
+      "title": "Freelancer — заказы на разработку и внедрение.",
+      "details": "Действующий список проектов. Это продажа работы и согласованного результата клиенту; нельзя смешивать её с продажей одного и того же эксклюзивного кода нескольким клиентам. Условия KZ отдельно не проверены.\nhttps://www.freelancer.com/jobs/\n\nОХВАТ И SEO: ЭТО КАНАЛЫ ПОКАЗА, А НЕ КАССА",
+      "official_sources": [
+        "https://www.freelancer.com/jobs/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 34,
+      "title": "Product Hunt — запуск и обратная связь о реально доступном продукте.",
+      "details": "Наличие карточки не доказывает спрос или выручку. Публикация здесь не выполнялась.\nhttps://www.producthunt.com/",
+      "official_sources": [
+        "https://www.producthunt.com/"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 35,
+      "title": "Astana Hub — блог и профиль проекта; HubMarket виден в официальной навигации.",
+      "details": "Для блога нужны реальные продукт, демо, авторская статья и корректное описание стадии. Открытый профиль/карточка полезны для поиска, но позиции и переходы не гарантированы. Отправка на модерацию не равна публичной публикации. HubMarket — кандидат для местной B2B-видимости; checkout и расчёты здесь не подтверждены.\nhttps://astanahub.com/ru/hub-market/\nhttps://astanahub.com/ru/l/Information-support",
+      "official_sources": [
+        "https://astanahub.com/ru/hub-market/",
+        "https://astanahub.com/ru/l/Information-support"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 36,
+      "title": "Show HN — показать продукт, который можно попробовать.",
+      "details": "Правила исключают обычные лендинги, списки и страницы сбора регистрации. Уместна полезная демонстрация с объяснением инженерных решений. Не гарантирует трафик или продажи.\nhttps://news.ycombinator.com/showhn.html",
+      "official_sources": [
+        "https://news.ycombinator.com/showhn.html"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    },
+    {
+      "id": 37,
+      "title": "BetaList — представление новых продуктов.",
+      "details": "Форма подачи действует; сроки, стоимость возможного варианта размещения и условия нужно проверять перед отправкой. Никакие платные размещения не заказывались.\nhttps://betalist.com/submit",
+      "official_sources": [
+        "https://betalist.com/submit"
+      ],
+      "checked_at": "2026-10-24",
+      "owner_account_approved": false,
+      "test_payout_received": false
+    }
+  ]
+}

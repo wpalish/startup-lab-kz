@@ -1,0 +1,10 @@
+_site/
+node_modules/
+.DS_Store
+.env
+.env.*
+*.log
+*.zip
+.impeccable/review/
+.impeccable/mocks/
+docs/sabaqloop-surface.md

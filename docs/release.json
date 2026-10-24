@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "product": "SabaqLoop",
+  "implementation": "local-first functional prototype",
+  "repository": "https://github.com/wpalish/startup-lab-kz",
+  "public_demo": {
+    "url": "https://wpalish.github.io/startup-lab-kz/sabaqloop/",
+    "status": "pending_deployment_verification"
+  },
+  "astana_hub": {
+    "status": "not_submitted",
+    "reason": "three accepted posts already dated 2026-10-24; official maximum three posts per day",
+    "planned_action": "prepare and save an editorial draft with working links",
+    "rules": "https://astanahub.com/static/files/advise_ru.pdf"
+  },
+  "scope": {
+    "reference_products": 100,
+    "implemented_products": 1,
+    "full_clones_of_100": false
+  },
+  "payments_and_sales": {
+    "listings_submitted": 0,
+    "payments_configured": false,
+    "verified_customers": 0,
+    "verified_revenue": null
+  }
+}
