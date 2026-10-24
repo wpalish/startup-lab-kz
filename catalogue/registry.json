@@ -279,7 +279,7 @@
       "slug": "stepbook",
       "title": "StepBook",
       "reference": 86,
-      "tests": 4,
+      "tests": 7,
       "scope": "Пошаговые инструкции с результатом каждого шага и отдельной проверкой перед публикацией внутри команды. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/stepbook",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/stepbook.zip",
