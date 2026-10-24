@@ -84,7 +84,7 @@
       "slug": "budgetgate",
       "title": "BudgetGate",
       "reference": 66,
-      "tests": 4,
+      "tests": 7,
       "scope": "Заявки на расходы, независимое согласование и резервирование лимита подразделения. Деньги не переводятся. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/budgetgate",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/budgetgate.zip",
