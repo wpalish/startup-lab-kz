@@ -2,21 +2,21 @@
   "as_of": "2026-10-24",
   "reference_count": 100,
   "implemented_product_count": 1,
-  "reference_only_count": 98,
-  "related_mechanism_reference_count": 2,
-  "counts_explanation": "Один продукт относится к двум референсам. 98 оставшихся референсов не реализованы. Не считать 2 референса двумя продуктами.",
+  "reference_only_count": 99,
+  "related_mechanism_reference_count": 1,
+  "counts_explanation": "Один отдельный продукт относится к одному референсу #43; #45 остаётся отдельной задачей. Полных аналогов всех 100 ещё нет.",
   "products": [
     {
       "slug": "sabaqloop",
       "name": "SabaqLoop",
       "version": "0.1.0",
-      "status": "public_functional_prototype",
-      "path": "apps/sabaqloop",
+      "status": "public_local_first_prototype",
+      "repository": "https://github.com/wpalish/sabaqloop",
+      "public_product_url": "https://wpalish.github.io/sabaqloop/",
       "references": [
-        43,
-        45
+        43
       ],
-      "public_product_url": "https://wpalish.github.io/startup-lab-kz/sabaqloop/"
+      "scope": "Один самостоятельный продукт для референса #43. Не полная функциональная копия Knowt."
     }
   ],
   "items": [
@@ -1003,11 +1003,12 @@
       "additional_read_source": "https://knowt.com/",
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "related_mechanism_prototype",
-      "implementation_path": "apps/sabaqloop",
-      "public_product_url": "https://wpalish.github.io/startup-lab-kz/sabaqloop/",
+      "implementation_status": "separate_public_prototype",
+      "implementation_path": null,
+      "public_product_url": "https://wpalish.github.io/sabaqloop/",
       "competitor_defect_audit": "not_performed",
-      "notes": "Один собственный продукт SabaqLoop реализует часть учебного механизма категории. Это не полная копия Knowt или Quizgecko и не два отдельных выпущенных продукта."
+      "notes": "Самостоятельный локальный продукт SabaqLoop с отдельным репозиторием и проверенным демо; не полная платформа Knowt.",
+      "repository": "https://github.com/wpalish/sabaqloop"
     },
     {
       "id": 44,
@@ -1049,11 +1050,11 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "related_mechanism_prototype",
-      "implementation_path": "apps/sabaqloop",
-      "public_product_url": "https://wpalish.github.io/startup-lab-kz/sabaqloop/",
+      "implementation_status": "reference_only",
+      "implementation_path": null,
+      "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Один собственный продукт SabaqLoop реализует часть учебного механизма категории. Это не полная копия Knowt или Quizgecko и не два отдельных выпущенных продукта."
+      "notes": "Отдельная задача. SabaqLoop не засчитывается как реализация Quizgecko."
     },
     {
       "id": 46,

@@ -1,13 +1,14 @@
-import {mkdir,cp,rm,writeFile} from 'node:fs/promises';
+import {mkdir,cp,rm,writeFile,readFile} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import {join} from 'node:path';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const output=join(root,'_site');
 await rm(output,{recursive:true,force:true});
 await mkdir(output,{recursive:true});
-await cp(join(root,'apps/sabaqloop/dist'),join(output,'sabaqloop'),{recursive:true});
+const registry=JSON.parse(await readFile(join(root,'catalogue/registry.json'),'utf8'));
+if(registry.items.length!==100 || new Set(registry.items.map(item=>item.id)).size!==100) throw new Error('Expected exactly 100 distinct references.');
 await cp(join(root,'site'),output,{recursive:true});
 await cp(join(root,'catalogue/registry.json'),join(output,'registry.json'));
 await cp(join(root,'docs/sales-and-integration.txt'),join(output,'sales-and-integration.txt'));
 await writeFile(join(output,'.nojekyll'),'');
-console.log('Built _site: SabaqLoop, public release index, registry and research report.');
+console.log('Built catalogue index, separate-product links, legacy redirect and research report.');
