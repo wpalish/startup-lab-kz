@@ -54,7 +54,7 @@
       "slug": "applylens",
       "title": "ApplyLens",
       "reference": 51,
-      "tests": 4,
+      "tests": 6,
       "scope": "Сопоставление собственного резюме с явными требованиями вакансии, без ATS-оценки и выдуманного опыта. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/applylens",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/applylens.zip",
