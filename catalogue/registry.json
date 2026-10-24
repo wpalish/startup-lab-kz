@@ -69,7 +69,7 @@
       "slug": "branchlearn",
       "title": "BranchLearn",
       "reference": 88,
-      "tests": 4,
+      "tests": 7,
       "scope": "Пакеты обучения сотрудников с назначениями и проверяемыми ответами на контрольные вопросы. Это рабочий журнал, не защищённый экзамен. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/branchlearn",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/branchlearn.zip",
