@@ -234,7 +234,7 @@
       "slug": "ruleshelf",
       "title": "RuleShelf",
       "reference": 89,
-      "tests": 4,
+      "tests": 7,
       "scope": "Версии регламентов, сроки пересмотра и отметки ознакомления с конкретной версией. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/ruleshelf",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/ruleshelf.zip",
