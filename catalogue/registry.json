@@ -264,7 +264,7 @@
       "slug": "slotline",
       "title": "SlotLine",
       "reference": 71,
-      "tests": 4,
+      "tests": 7,
       "scope": "Расписание услуг сотрудников с вычислением окончания и запретом пересечений, включая буфер. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/slotline",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/slotline.zip",
