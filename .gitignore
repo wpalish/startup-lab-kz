@@ -8,3 +8,4 @@ node_modules/
 .impeccable/review/
 .impeccable/mocks/
 docs/sabaqloop-surface.md
+!site/downloads/*.zip
