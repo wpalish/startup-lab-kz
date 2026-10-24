@@ -10,12 +10,13 @@
       "slug": "sabaqloop",
       "name": "SabaqLoop",
       "version": "0.1.0",
-      "status": "implemented_locally_pending_public_release",
+      "status": "public_functional_prototype",
       "path": "apps/sabaqloop",
       "references": [
         43,
         45
-      ]
+      ],
+      "public_product_url": "https://wpalish.github.io/startup-lab-kz/sabaqloop/"
     }
   ],
   "items": [
@@ -1004,7 +1005,7 @@
       "research_date": "2026-10-24",
       "implementation_status": "related_mechanism_prototype",
       "implementation_path": "apps/sabaqloop",
-      "public_product_url": null,
+      "public_product_url": "https://wpalish.github.io/startup-lab-kz/sabaqloop/",
       "competitor_defect_audit": "not_performed",
       "notes": "Один собственный продукт SabaqLoop реализует часть учебного механизма категории. Это не полная копия Knowt или Quizgecko и не два отдельных выпущенных продукта."
     },
@@ -1050,7 +1051,7 @@
       "research_date": "2026-10-24",
       "implementation_status": "related_mechanism_prototype",
       "implementation_path": "apps/sabaqloop",
-      "public_product_url": null,
+      "public_product_url": "https://wpalish.github.io/startup-lab-kz/sabaqloop/",
       "competitor_defect_audit": "not_performed",
       "notes": "Один собственный продукт SabaqLoop реализует часть учебного механизма категории. Это не полная копия Knowt или Quizgecko и не два отдельных выпущенных продукта."
     },

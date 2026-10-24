@@ -66,5 +66,11 @@
     "all 100 reference product implementations",
     "competitor internal defects",
     "search indexing, rankings, organic traffic and sales"
-  ]
+  ],
+  "public_deployment": {
+    "http_status": 200,
+    "app_source_hash_matches": true,
+    "browser_sample_feedback_and_reload": "passed",
+    "workflow": "https://github.com/wpalish/startup-lab-kz/actions/runs/40087868845"
+  }
 }
