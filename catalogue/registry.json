@@ -189,7 +189,7 @@
       "slug": "receiptlane",
       "title": "ReceiptLane",
       "reference": 65,
-      "tests": 4,
+      "tests": 5,
       "scope": "Сбор и согласование отчётов о расходах с ручными ссылками на подтверждения. OCR и банковских списаний нет. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/receiptlane",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/receiptlane.zip",
