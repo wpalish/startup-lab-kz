@@ -1,22 +1,309 @@
 {
   "as_of": "2026-10-24",
   "reference_count": 100,
-  "implemented_product_count": 1,
-  "reference_only_count": 99,
+  "implemented_product_count": 20,
+  "reference_only_count": 80,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "Один отдельный продукт относится к одному референсу #43; #45 остаётся отдельной задачей. Полных аналогов всех 100 ещё нет.",
+  "counts_explanation": "20 отдельных оригинальных версий0.1 с ограниченными проверенными процессами; публичные репозитории считаются отдельно. Архив исходников не засчитывается как отдельный GitHub-репозиторий.",
   "products": [
     {
       "slug": "sabaqloop",
+      "title": "SabaqLoop",
+      "reference": 43,
+      "tests": 14,
+      "scope": "Браузерная практика, без облачных кабинетов класса",
+      "repository": "https://github.com/wpalish/sabaqloop",
+      "demo": "https://wpalish.github.io/sabaqloop/",
       "name": "SabaqLoop",
       "version": "0.1.0",
-      "status": "public_local_first_prototype",
-      "repository": "https://github.com/wpalish/sabaqloop",
-      "public_product_url": "https://wpalish.github.io/sabaqloop/",
+      "status": "separate_repo_verified_workflow",
       "references": [
         43
-      ],
-      "scope": "Один самостоятельный продукт для референса #43. Не полная функциональная копия Knowt."
+      ]
+    },
+    {
+      "slug": "derekdesk",
+      "title": "DerekDesk",
+      "reference": 1,
+      "tests": 22,
+      "scope": "Точные RU/KK ответы и очередь сотрудника; сервер проверен локально",
+      "repository": "https://github.com/wpalish/derekdesk",
+      "name": "DerekDesk",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        1
+      ]
+    },
+    {
+      "slug": "abonflow",
+      "title": "AbonFlow",
+      "reference": 79,
+      "tests": 4,
+      "scope": "Абонементы, резерв занятий и посещения: отмена освобождает резерв, посещение расходует занятие. Сервер проверен локально.",
+      "repository": "https://github.com/wpalish/abonflow",
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/abonflow.zip",
+      "name": "AbonFlow",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        79
+      ]
+    },
+    {
+      "slug": "applylens",
+      "title": "ApplyLens",
+      "reference": 51,
+      "tests": 4,
+      "scope": "Сопоставление собственного резюме с явными требованиями вакансии, без ATS-оценки и выдуманного опыта. Сервер проверен локально.",
+      "repository": "https://github.com/wpalish/applylens",
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/applylens.zip",
+      "name": "ApplyLens",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        51
+      ]
+    },
+    {
+      "slug": "branchlearn",
+      "title": "BranchLearn",
+      "reference": 88,
+      "tests": 4,
+      "scope": "Пакеты обучения сотрудников с назначениями и проверяемыми ответами на контрольные вопросы. Это рабочий журнал, не защищённый экзамен. Сервер проверен локально.",
+      "repository": "https://github.com/wpalish/branchlearn",
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/branchlearn.zip",
+      "name": "BranchLearn",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        88
+      ]
+    },
+    {
+      "slug": "budgetgate",
+      "title": "BudgetGate",
+      "reference": 66,
+      "tests": 4,
+      "scope": "Заявки на расходы, независимое согласование и резервирование лимита подразделения. Деньги не переводятся. Сервер проверен локально.",
+      "repository": "https://github.com/wpalish/budgetgate",
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/budgetgate.zip",
+      "name": "BudgetGate",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        66
+      ]
+    },
+    {
+      "slug": "dataline",
+      "title": "DataLine",
+      "reference": 18,
+      "tests": 4,
+      "scope": "Таблица деловых контактов и связанных следующих действий. Сервер проверен локально.",
+      "repository": "https://github.com/wpalish/dataline",
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/dataline.zip",
+      "name": "DataLine",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        18
+      ]
+    },
+    {
+      "slug": "formakz",
+      "title": "FormaKZ",
+      "reference": 99,
+      "tests": 5,
+      "scope": "Настройка текстовой формы и приём публичных заявок в закрытый кабинет с проверкой обязательных ответов. Сервер проверен локально.",
+      "repository": "https://github.com/wpalish/formakz",
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/formakz.zip",
+      "name": "FormaKZ",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        99
+      ]
+    },
+    {
+      "slug": "offerpath",
+      "title": "OfferPath",
+      "reference": 69,
+      "tests": 4,
+      "scope": "Коммерческие предложения с составом, сроком действия, версиями и ручной фиксацией подтверждения; электронной подписи нет. Сервер проверен локально.",
+      "repository": "https://github.com/wpalish/offerpath",
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/offerpath.zip",
+      "name": "OfferPath",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        69
+      ]
+    },
+    {
+      "slug": "protocollane",
+      "title": "ProtocolLane",
+      "reference": 81,
+      "tests": 4,
+      "scope": "Проверяемые задачи из вставленного протокола: точная цитата, ответственный, срок и состояние. Аудиозапись и ASR отсутствуют. Сервер проверен локально.",
+      "repository": "https://github.com/wpalish/protocollane",
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/protocollane.zip",
+      "name": "ProtocolLane",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        81
+      ]
+    },
+    {
+      "slug": "qoldau-invoice",
+      "title": "Qoldau Invoice",
+      "reference": 62,
+      "tests": 4,
+      "scope": "Счета, строки и ручная сверка частичных оплат с проверкой остатка. Без приёма платежей и налоговых документов. Сервер проверен локально.",
+      "repository": "https://github.com/wpalish/qoldau-invoice",
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/qoldau-invoice.zip",
+      "name": "Qoldau Invoice",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        62
+      ]
+    },
+    {
+      "slug": "quotegate",
+      "title": "QuoteGate",
+      "reference": 100,
+      "tests": 5,
+      "scope": "Публичный предварительный расчёт услуги из утверждённого тарифа с неизменным снимком цены в заявке. Сервер проверен локально.",
+      "repository": null,
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/quotegate.zip",
+      "name": "QuoteGate",
+      "version": "0.1.0",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "references": [
+        100
+      ]
+    },
+    {
+      "slug": "receiptlane",
+      "title": "ReceiptLane",
+      "reference": 65,
+      "tests": 4,
+      "scope": "Сбор и согласование отчётов о расходах с ручными ссылками на подтверждения. OCR и банковских списаний нет. Сервер проверен локально.",
+      "repository": null,
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/receiptlane.zip",
+      "name": "ReceiptLane",
+      "version": "0.1.0",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "references": [
+        65
+      ]
+    },
+    {
+      "slug": "roomgrid",
+      "title": "RoomGrid",
+      "reference": 80,
+      "tests": 4,
+      "scope": "Бронирование комнат с ограничением вместимости и проверкой пересечений во времени. Сервер проверен локально.",
+      "repository": null,
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/roomgrid.zip",
+      "name": "RoomGrid",
+      "version": "0.1.0",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "references": [
+        80
+      ]
+    },
+    {
+      "slug": "routeboard",
+      "title": "RouteBoard",
+      "reference": 56,
+      "tests": 4,
+      "scope": "Личный журнал вакансий, этапов и следующих действий. Отправка откликов остаётся отдельным действием человека. Сервер проверен локально.",
+      "repository": null,
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/routeboard.zip",
+      "name": "RouteBoard",
+      "version": "0.1.0",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "references": [
+        56
+      ]
+    },
+    {
+      "slug": "ruleshelf",
+      "title": "RuleShelf",
+      "reference": 89,
+      "tests": 4,
+      "scope": "Версии регламентов, сроки пересмотра и отметки ознакомления с конкретной версией. Сервер проверен локально.",
+      "repository": null,
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/ruleshelf.zip",
+      "name": "RuleShelf",
+      "version": "0.1.0",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "references": [
+        89
+      ]
+    },
+    {
+      "slug": "scopesum",
+      "title": "ScopeSum",
+      "reference": 63,
+      "tests": 4,
+      "scope": "Предварительная смета проекта с себестоимостью, резервом и скидкой; подписанный договор не создаётся. Сервер проверен локально.",
+      "repository": null,
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/scopesum.zip",
+      "name": "ScopeSum",
+      "version": "0.1.0",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "references": [
+        63
+      ]
+    },
+    {
+      "slug": "slotline",
+      "title": "SlotLine",
+      "reference": 71,
+      "tests": 4,
+      "scope": "Расписание услуг сотрудников с вычислением окончания и запретом пересечений, включая буфер. Сервер проверен локально.",
+      "repository": null,
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/slotline.zip",
+      "name": "SlotLine",
+      "version": "0.1.0",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "references": [
+        71
+      ]
+    },
+    {
+      "slug": "stepbook",
+      "title": "StepBook",
+      "reference": 86,
+      "tests": 4,
+      "scope": "Пошаговые инструкции с результатом каждого шага и отдельной проверкой перед публикацией внутри команды. Сервер проверен локально.",
+      "repository": null,
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/stepbook.zip",
+      "name": "StepBook",
+      "version": "0.1.0",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "references": [
+        86
+      ]
+    },
+    {
+      "slug": "turnoverline",
+      "title": "TurnoverLine",
+      "reference": 77,
+      "tests": 4,
+      "scope": "Уборка и обслуживание между заездами с проверкой окна до следующего гостя. Без OTA-интеграций. Сервер проверен локально.",
+      "repository": null,
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/turnoverline.zip",
+      "name": "TurnoverLine",
+      "version": "0.1.0",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "references": [
+        77
+      ]
     }
   ],
   "items": [
@@ -41,7 +328,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "derekdesk",
+      "repository": "https://github.com/wpalish/derekdesk",
+      "source_archive": null,
+      "scope": "Точные RU/KK ответы и очередь сотрудника; сервер проверен локально"
     },
     {
       "id": 2,
@@ -432,7 +724,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "dataline",
+      "repository": "https://github.com/wpalish/dataline",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/dataline.zip",
+      "scope": "Таблица деловых контактов и связанных следующих действий. Сервер проверен локально."
     },
     {
       "id": 19,
@@ -1008,7 +1305,11 @@
       "public_product_url": "https://wpalish.github.io/sabaqloop/",
       "competitor_defect_audit": "not_performed",
       "notes": "Самостоятельный локальный продукт SabaqLoop с отдельным репозиторием и проверенным демо; не полная платформа Knowt.",
-      "repository": "https://github.com/wpalish/sabaqloop"
+      "repository": "https://github.com/wpalish/sabaqloop",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "sabaqloop",
+      "source_archive": null,
+      "scope": "Браузерная практика, без облачных кабинетов класса"
     },
     {
       "id": 44,
@@ -1192,7 +1493,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "applylens",
+      "repository": "https://github.com/wpalish/applylens",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/applylens.zip",
+      "scope": "Сопоставление собственного резюме с явными требованиями вакансии, без ATS-оценки и выдуманного опыта. Сервер проверен локально."
     },
     {
       "id": 52,
@@ -1307,7 +1613,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "product_slug": "routeboard",
+      "repository": null,
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/routeboard.zip",
+      "scope": "Личный журнал вакансий, этапов и следующих действий. Отправка откликов остаётся отдельным действием человека. Сервер проверен локально."
     },
     {
       "id": 57,
@@ -1445,7 +1756,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "qoldau-invoice",
+      "repository": "https://github.com/wpalish/qoldau-invoice",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/qoldau-invoice.zip",
+      "scope": "Счета, строки и ручная сверка частичных оплат с проверкой остатка. Без приёма платежей и налоговых документов. Сервер проверен локально."
     },
     {
       "id": 63,
@@ -1468,7 +1784,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "product_slug": "scopesum",
+      "repository": null,
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/scopesum.zip",
+      "scope": "Предварительная смета проекта с себестоимостью, резервом и скидкой; подписанный договор не создаётся. Сервер проверен локально."
     },
     {
       "id": 64,
@@ -1514,7 +1835,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "product_slug": "receiptlane",
+      "repository": null,
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/receiptlane.zip",
+      "scope": "Сбор и согласование отчётов о расходах с ручными ссылками на подтверждения. OCR и банковских списаний нет. Сервер проверен локально."
     },
     {
       "id": 66,
@@ -1537,7 +1863,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "budgetgate",
+      "repository": "https://github.com/wpalish/budgetgate",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/budgetgate.zip",
+      "scope": "Заявки на расходы, независимое согласование и резервирование лимита подразделения. Деньги не переводятся. Сервер проверен локально."
     },
     {
       "id": 67,
@@ -1606,7 +1937,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "offerpath",
+      "repository": "https://github.com/wpalish/offerpath",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/offerpath.zip",
+      "scope": "Коммерческие предложения с составом, сроком действия, версиями и ручной фиксацией подтверждения; электронной подписи нет. Сервер проверен локально."
     },
     {
       "id": 70,
@@ -1652,7 +1988,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "product_slug": "slotline",
+      "repository": null,
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/slotline.zip",
+      "scope": "Расписание услуг сотрудников с вычислением окончания и запретом пересечений, включая буфер. Сервер проверен локально."
     },
     {
       "id": 72,
@@ -1790,7 +2131,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "product_slug": "turnoverline",
+      "repository": null,
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/turnoverline.zip",
+      "scope": "Уборка и обслуживание между заездами с проверкой окна до следующего гостя. Без OTA-интеграций. Сервер проверен локально."
     },
     {
       "id": 78,
@@ -1836,7 +2182,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "abonflow",
+      "repository": "https://github.com/wpalish/abonflow",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/abonflow.zip",
+      "scope": "Абонементы, резерв занятий и посещения: отмена освобождает резерв, посещение расходует занятие. Сервер проверен локально."
     },
     {
       "id": 80,
@@ -1859,7 +2210,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "product_slug": "roomgrid",
+      "repository": null,
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/roomgrid.zip",
+      "scope": "Бронирование комнат с ограничением вместимости и проверкой пересечений во времени. Сервер проверен локально."
     },
     {
       "id": 81,
@@ -1882,7 +2238,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "protocollane",
+      "repository": "https://github.com/wpalish/protocollane",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/protocollane.zip",
+      "scope": "Проверяемые задачи из вставленного протокола: точная цитата, ответственный, срок и состояние. Аудиозапись и ASR отсутствуют. Сервер проверен локально."
     },
     {
       "id": 82,
@@ -1997,7 +2358,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "product_slug": "stepbook",
+      "repository": null,
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/stepbook.zip",
+      "scope": "Пошаговые инструкции с результатом каждого шага и отдельной проверкой перед публикацией внутри команды. Сервер проверен локально."
     },
     {
       "id": 87,
@@ -2043,7 +2409,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "branchlearn",
+      "repository": "https://github.com/wpalish/branchlearn",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/branchlearn.zip",
+      "scope": "Пакеты обучения сотрудников с назначениями и проверяемыми ответами на контрольные вопросы. Это рабочий журнал, не защищённый экзамен. Сервер проверен локально."
     },
     {
       "id": 89,
@@ -2066,7 +2437,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "product_slug": "ruleshelf",
+      "repository": null,
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/ruleshelf.zip",
+      "scope": "Версии регламентов, сроки пересмотра и отметки ознакомления с конкретной версией. Сервер проверен локально."
     },
     {
       "id": 90,
@@ -2296,7 +2672,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "formakz",
+      "repository": "https://github.com/wpalish/formakz",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/formakz.zip",
+      "scope": "Настройка текстовой формы и приём публичных заявок в закрытый кабинет с проверкой обязательных ответов. Сервер проверен локально."
     },
     {
       "id": 100,
@@ -2319,7 +2700,13 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "local_complete_source_archive_published_repository_waiting_github_limit",
+      "product_slug": "quotegate",
+      "repository": null,
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/quotegate.zip",
+      "scope": "Публичный предварительный расчёт услуги из утверждённого тарифа с неизменным снимком цены в заявке. Сервер проверен локально."
     }
-  ]
+  ],
+  "public_repository_count": 11
 }
