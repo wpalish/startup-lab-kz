@@ -25,7 +25,7 @@
       "slug": "derekdesk",
       "title": "DerekDesk",
       "reference": 1,
-      "tests": 24,
+      "tests": 27,
       "scope": "Точные RU/KK ответы и очередь сотрудника; сервер проверен локально",
       "repository": "https://github.com/wpalish/derekdesk",
       "name": "DerekDesk",
