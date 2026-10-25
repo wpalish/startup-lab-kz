@@ -144,7 +144,7 @@
       "slug": "protocollane",
       "title": "ProtocolLane",
       "reference": 81,
-      "tests": 4,
+      "tests": 7,
       "scope": "Проверяемые задачи из вставленного протокола: точная цитата, ответственный, срок и состояние. Аудиозапись и ASR отсутствуют. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/protocollane",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/protocollane.zip",
