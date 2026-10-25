@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-25",
   "reference_count": 100,
-  "implemented_product_count": 31,
-  "reference_only_count": 69,
+  "implemented_product_count": 32,
+  "reference_only_count": 68,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "31 original bounded working products;69 references remain queued;source archives are not additional products",
+  "counts_explanation": "32 original bounded working products;68 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -704,13 +704,13 @@
       "tests": 20,
       "scope": "Синтетические комплекты: опубликованный рецепт, целое списание всех компонентов и отдельный полный возврат. Общая локальная область · Целые штуки · Без физического склада, заказов, Make-интеграций и платежей",
       "repository": "https://github.com/wpalish/jinaq-kit",
-      "commit": "34f2c652aa46335a43b24991a2ed32d0721d7467",
+      "commit": "0717b3f0a361c23c2f9a5bcda87f6106ba82fe28",
       "ci": {
         "conclusion": "success",
-        "headSha": "34f2c652aa46335a43b24991a2ed32d0721d7467",
+        "headSha": "0717b3f0a361c23c2f9a5bcda87f6106ba82fe28",
         "name": "Verify original workflow",
         "status": "completed",
-        "url": "https://github.com/wpalish/jinaq-kit/actions/runs/40215020767"
+        "url": "https://github.com/wpalish/jinaq-kit/actions/runs/40218969608"
       },
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/jinaq-kit.zip",
       "name": "JinaqKit",
@@ -718,6 +718,29 @@
       "status": "separate_repo_verified_workflow",
       "references": [
         12
+      ]
+    },
+    {
+      "slug": "bekit-change",
+      "title": "BekitChange",
+      "reference": 13,
+      "tests": 24,
+      "scope": "Две назначенные последовательные проверки → явное атомарное изменение RU/KK записи по точной исходной версии. Общая локальная область · Только синтетический справочник · Без Relay-интеграций, AI и внешних действий",
+      "repository": "https://github.com/wpalish/bekit-change",
+      "commit": "24b631888ddf3a4541cd9971da7c55fd0d8eee01",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "24b631888ddf3a4541cd9971da7c55fd0d8eee01",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/bekit-change/actions/runs/40219900450"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/bekit-change.zip",
+      "name": "BekitChange",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        13
       ]
     }
   ],
@@ -1075,11 +1098,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/bekit-change",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс BekitChange реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "bekit-change",
+      "repository": "https://github.com/wpalish/bekit-change",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/bekit-change.zip",
+      "scope": "Две назначенные последовательные проверки → явное атомарное изменение RU/KK записи по точной исходной версии. Общая локальная область · Только синтетический справочник · Без Relay-интеграций, AI и внешних действий"
     },
     {
       "id": 14,
@@ -3178,5 +3206,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 31
+  "public_repository_count": 32
 }
