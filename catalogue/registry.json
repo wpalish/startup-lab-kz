@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-25",
   "reference_count": 100,
-  "implemented_product_count": 22,
-  "reference_only_count": 78,
+  "implemented_product_count": 23,
+  "reference_only_count": 77,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "22 original bounded working products;78 references remain queued;source archives are not additional products",
+  "counts_explanation": "23 original bounded working products;77 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -512,6 +512,29 @@
       "references": [
         3
       ]
+    },
+    {
+      "slug": "arna-lead",
+      "title": "ArnaLead",
+      "reference": 4,
+      "tests": 15,
+      "scope": "Передача вручную введённого лида: предложение → явное принятие получателем → смена ответственного. Одна общая область · Каналы только метки · Без импорта, внешних сообщений, AI и перевода",
+      "repository": "https://github.com/wpalish/arna-lead",
+      "commit": "6fe2aa29bd17dc718697a14876ab71e41e94b564",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "6fe2aa29bd17dc718697a14876ab71e41e94b564",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/arna-lead/actions/runs/40185166619"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/arna-lead.zip",
+      "name": "ArnaLead",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        4
+      ]
     }
   ],
   "items": [
@@ -620,7 +643,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "arna-lead",
+      "repository": "https://github.com/wpalish/arna-lead",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/arna-lead.zip",
+      "scope": "Передача вручную введённого лида: предложение → явное принятие получателем → смена ответственного. Одна общая область · Каналы только метки · Без импорта, внешних сообщений, AI и перевода"
     },
     {
       "id": 5,
@@ -2926,5 +2954,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 22
+  "public_repository_count": 23
 }
