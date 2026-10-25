@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-25",
   "reference_count": 100,
-  "implemented_product_count": 21,
-  "reference_only_count": 79,
+  "implemented_product_count": 22,
+  "reference_only_count": 78,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "21 original bounded working products;79 references remain queued;source archives are not additional products",
+  "counts_explanation": "22 original bounded working products;78 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -489,6 +489,29 @@
       "references": [
         2
       ]
+    },
+    {
+      "slug": "orta-inbox",
+      "title": "OrtaInbox",
+      "reference": 3,
+      "tests": 13,
+      "scope": "Ручная очередь обращений: назначенный автор → независимая проверка версии ответа → ручная отметка отправки. Общий кабинет одной организации · Филиал — метка · Без почтового импорта, AI и внешней отправки",
+      "repository": "https://github.com/wpalish/orta-inbox",
+      "commit": "e2269360246c9a15b2cf084ad01e5cc45c30b80a",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "e2269360246c9a15b2cf084ad01e5cc45c30b80a",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/orta-inbox/actions/runs/40181826903"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/orta-inbox.zip",
+      "name": "OrtaInbox",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        3
+      ]
     }
   ],
   "items": [
@@ -569,7 +592,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "orta-inbox",
+      "repository": "https://github.com/wpalish/orta-inbox",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/orta-inbox.zip",
+      "scope": "Ручная очередь обращений: назначенный автор → независимая проверка версии ответа → ручная отметка отправки. Общий кабинет одной организации · Филиал — метка · Без почтового импорта, AI и внешней отправки"
     },
     {
       "id": 4,
@@ -2898,5 +2926,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 21
+  "public_repository_count": 22
 }
