@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-25",
   "reference_count": 100,
-  "implemented_product_count": 29,
-  "reference_only_count": 71,
+  "implemented_product_count": 30,
+  "reference_only_count": 70,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "29 original bounded working products;71 references remain queued;source archives are not additional products",
+  "counts_explanation": "30 original bounded working products;70 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -673,6 +673,29 @@
       "references": [
         10
       ]
+    },
+    {
+      "slug": "taza-batch",
+      "title": "TazaBatch",
+      "reference": 11,
+      "tests": 25,
+      "scope": "Опубликованная цепочка очистки синтетических строк:пошаговый отчёт и один явный локальный импорт всего успешного пакета. Общая область · JSON1–50строк · Без внешних коннекторов,AI,реальных данных и фоновых запусков",
+      "repository": "https://github.com/wpalish/taza-batch",
+      "commit": "778cd3b176be02f79a274484d9b9f6987eac7c61",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "778cd3b176be02f79a274484d9b9f6987eac7c61",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/taza-batch/actions/runs/40211071973"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/taza-batch.zip",
+      "name": "TazaBatch",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        11
+      ]
     }
   ],
   "items": [
@@ -973,11 +996,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/taza-batch",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс TazaBatch реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "taza-batch",
+      "repository": "https://github.com/wpalish/taza-batch",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/taza-batch.zip",
+      "scope": "Опубликованная цепочка очистки синтетических строк:пошаговый отчёт и один явный локальный импорт всего успешного пакета. Общая область · JSON1–50строк · Без внешних коннекторов,AI,реальных данных и фоновых запусков"
     },
     {
       "id": 12,
@@ -3122,5 +3150,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 29
+  "public_repository_count": 30
 }
