@@ -10,7 +10,7 @@
       "slug": "sabaqloop",
       "title": "SabaqLoop",
       "reference": 43,
-      "tests": 14,
+      "tests": 17,
       "scope": "Браузерная практика, без облачных кабинетов класса",
       "repository": "https://github.com/wpalish/sabaqloop",
       "demo": "https://wpalish.github.io/sabaqloop/",
