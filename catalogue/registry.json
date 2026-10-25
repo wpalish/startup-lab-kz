@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-10-25",
+  "as_of": "2026-10-26",
   "reference_count": 100,
-  "implemented_product_count": 32,
-  "reference_only_count": 68,
+  "implemented_product_count": 33,
+  "reference_only_count": 67,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "32 original bounded working products;68 references remain queued;source archives are not additional products",
+  "counts_explanation": "33 original bounded working products;67 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -742,6 +742,29 @@
       "references": [
         13
       ]
+    },
+    {
+      "slug": "koshi-map",
+      "title": "KoshiMap",
+      "reference": 14,
+      "tests": 24,
+      "scope": "Именованные столбцы → неизменный синтетический пакет → проверка совпадений и атомарное добавление справочника. Общая локальная область · Только синтетические строки · Без скрейпинга, AI, контактов и внешних записей",
+      "repository": "https://github.com/wpalish/koshi-map",
+      "commit": "fd22ccc94556ee526b6f8eebde518c09b972e377",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "fd22ccc94556ee526b6f8eebde518c09b972e377",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/koshi-map/actions/runs/40225050882"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/koshi-map.zip",
+      "name": "KoshiMap",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        14
+      ]
     }
   ],
   "items": [
@@ -1126,11 +1149,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/koshi-map",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс KoshiMap реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "koshi-map",
+      "repository": "https://github.com/wpalish/koshi-map",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/koshi-map.zip",
+      "scope": "Именованные столбцы → неизменный синтетический пакет → проверка совпадений и атомарное добавление справочника. Общая локальная область · Только синтетические строки · Без скрейпинга, AI, контактов и внешних записей"
     },
     {
       "id": 15,
@@ -3206,5 +3234,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 32
+  "public_repository_count": 33
 }
