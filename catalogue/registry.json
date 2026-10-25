@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-25",
   "reference_count": 100,
-  "implemented_product_count": 23,
-  "reference_only_count": 77,
+  "implemented_product_count": 24,
+  "reference_only_count": 76,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "23 original bounded working products;77 references remain queued;source archives are not additional products",
+  "counts_explanation": "24 original bounded working products;76 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -535,6 +535,29 @@
       "references": [
         4
       ]
+    },
+    {
+      "slug": "habar-prep",
+      "title": "HabarPrep",
+      "reference": 5,
+      "tests": 17,
+      "scope": "Ручная подготовка уведомления: предпросмотр допуска получателей и неизменный снимок без отправки. Псевдонимы · Одна общая область · Запись предпочтения не юридическое согласие · Без внешних сообщений",
+      "repository": "https://github.com/wpalish/habar-prep",
+      "commit": "a2156efb5e1bcf23d741f6cf3968e388ef79311e",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "a2156efb5e1bcf23d741f6cf3968e388ef79311e",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/habar-prep/actions/runs/40187077348"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/habar-prep.zip",
+      "name": "HabarPrep",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        5
+      ]
     }
   ],
   "items": [
@@ -671,7 +694,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "habar-prep",
+      "repository": "https://github.com/wpalish/habar-prep",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/habar-prep.zip",
+      "scope": "Ручная подготовка уведомления: предпросмотр допуска получателей и неизменный снимок без отправки. Псевдонимы · Одна общая область · Запись предпочтения не юридическое согласие · Без внешних сообщений"
     },
     {
       "id": 6,
@@ -2954,5 +2982,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 23
+  "public_repository_count": 24
 }
