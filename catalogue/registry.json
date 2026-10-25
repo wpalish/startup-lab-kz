@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-26",
   "reference_count": 100,
-  "implemented_product_count": 33,
-  "reference_only_count": 67,
+  "implemented_product_count": 34,
+  "reference_only_count": 66,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "33 original bounded working products;67 references remain queued;source archives are not additional products",
+  "counts_explanation": "34 original bounded working products;66 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -765,6 +765,29 @@
       "references": [
         14
       ]
+    },
+    {
+      "slug": "dalel-check",
+      "title": "DalelCheck",
+      "reference": 15,
+      "tests": 24,
+      "scope": "Ручная сверка синтетического текста: опубликованные требования, точные цитаты и полный неизменный отчёт. Только вымышленные тексты · Общая область сотрудников · Отметки человека, без AI и проверки смысла",
+      "repository": "https://github.com/wpalish/dalel-check",
+      "commit": "8bb1213ca5fb564b5f766edbbb8892fb04440bff",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "8bb1213ca5fb564b5f766edbbb8892fb04440bff",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/dalel-check/actions/runs/40227288972"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/dalel-check.zip",
+      "name": "DalelCheck",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        15
+      ]
     }
   ],
   "items": [
@@ -1177,11 +1200,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/dalel-check",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс DalelCheck реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "dalel-check",
+      "repository": "https://github.com/wpalish/dalel-check",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/dalel-check.zip",
+      "scope": "Ручная сверка синтетического текста: опубликованные требования, точные цитаты и полный неизменный отчёт. Только вымышленные тексты · Общая область сотрудников · Отметки человека, без AI и проверки смысла"
     },
     {
       "id": 16,
@@ -3234,5 +3262,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 33
+  "public_repository_count": 34
 }
