@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-26",
   "reference_count": 100,
-  "implemented_product_count": 34,
-  "reference_only_count": 66,
+  "implemented_product_count": 35,
+  "reference_only_count": 65,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "34 original bounded working products;66 references remain queued;source archives are not additional products",
+  "counts_explanation": "35 original bounded working products;65 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -788,6 +788,29 @@
       "references": [
         15
       ]
+    },
+    {
+      "slug": "qaita-cycle",
+      "title": "QaitaCycle",
+      "reference": 16,
+      "tests": 24,
+      "scope": "Повторяющееся недельное правило → явное целое окно дат → неизменные задачи и ручной результат владельца. Синтетический журнал · Фиксированный UTC+05:00 · Без фонового scheduler,AI,календаря и сообщений",
+      "repository": "https://github.com/wpalish/qaita-cycle",
+      "commit": "1858b593c2fabe82ecfa11bbf1695f36e2642ac8",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "1858b593c2fabe82ecfa11bbf1695f36e2642ac8",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/qaita-cycle/actions/runs/40232023731"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/qaita-cycle.zip",
+      "name": "QaitaCycle",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        16
+      ]
     }
   ],
   "items": [
@@ -1228,11 +1251,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/qaita-cycle",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс QaitaCycle реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "qaita-cycle",
+      "repository": "https://github.com/wpalish/qaita-cycle",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/qaita-cycle.zip",
+      "scope": "Повторяющееся недельное правило → явное целое окно дат → неизменные задачи и ручной результат владельца. Синтетический журнал · Фиксированный UTC+05:00 · Без фонового scheduler,AI,календаря и сообщений"
     },
     {
       "id": 17,
@@ -3262,5 +3290,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 34
+  "public_repository_count": 35
 }
