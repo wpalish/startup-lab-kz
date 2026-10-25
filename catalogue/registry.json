@@ -219,7 +219,7 @@
       "slug": "routeboard",
       "title": "RouteBoard",
       "reference": 56,
-      "tests": 4,
+      "tests": 6,
       "scope": "Личный журнал вакансий, этапов и следующих действий. Отправка откликов остаётся отдельным действием человека. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/routeboard",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/routeboard.zip",
