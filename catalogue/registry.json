@@ -1,83 +1,78 @@
 {
-  "as_of": "2026-10-24",
+  "as_of": "2026-10-25",
   "reference_count": 100,
-  "implemented_product_count": 20,
-  "reference_only_count": 80,
+  "implemented_product_count": 21,
+  "reference_only_count": 79,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "20 отдельных оригинальных версий0.1 с ограниченными проверенными процессами; публичные репозитории считаются отдельно. Архив исходников не засчитывается как отдельный GitHub-репозиторий.",
+  "counts_explanation": "21 original bounded working products;79 references remain queued;source archives are not additional products",
   "products": [
     {
-      "slug": "sabaqloop",
-      "title": "SabaqLoop",
-      "reference": 43,
-      "tests": 17,
-      "scope": "Браузерная практика, без облачных кабинетов класса",
-      "repository": "https://github.com/wpalish/sabaqloop",
-      "demo": "https://wpalish.github.io/sabaqloop/",
-      "name": "SabaqLoop",
+      "slug": "scopesum",
+      "title": "ScopeSum",
+      "reference": 63,
+      "tests": 5,
+      "scope": "Менеджер составляет смету с количеством, ценой, себестоимостью, резервом и скидкой. Система считает итог и управленческую маржу до налогов; принятую смету нельзя менять. Не бухгалтерия, не налоговый расчёт и не банковская операция.",
+      "repository": "https://github.com/wpalish/scopesum",
+      "commit": "800c3c51fedb5a3e986561646a485a77531781e1",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "800c3c51fedb5a3e986561646a485a77531781e1",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/scopesum/actions/runs/40109992753"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/scopesum.zip",
+      "name": "ScopeSum",
       "version": "0.1.0",
       "status": "separate_repo_verified_workflow",
       "references": [
-        43
+        63
       ]
     },
     {
-      "slug": "derekdesk",
-      "title": "DerekDesk",
-      "reference": 1,
-      "tests": 27,
-      "scope": "Точные RU/KK ответы и очередь сотрудника; сервер проверен локально",
-      "repository": "https://github.com/wpalish/derekdesk",
-      "name": "DerekDesk",
+      "slug": "qoldau-invoice",
+      "title": "Qoldau Invoice",
+      "reference": 62,
+      "tests": 5,
+      "scope": "Менеджер создаёт клиента, счёт и позиции, выпускает положительный счёт, вручную отмечает оплату. Итог и остаток считаются в целых минимальных денежных единицах; переплата отклоняется. Не налоговая система и не приём платежей; отметка оплаты не проверяет банк.",
+      "repository": "https://github.com/wpalish/qoldau-invoice",
+      "commit": "90d840c32d54adeb8e71c86496d499c9eaf23dcc",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "90d840c32d54adeb8e71c86496d499c9eaf23dcc",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/qoldau-invoice/actions/runs/40109992770"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/qoldau-invoice.zip",
+      "name": "Qoldau Invoice",
       "version": "0.1.0",
       "status": "separate_repo_verified_workflow",
       "references": [
-        1
+        62
       ]
     },
     {
-      "slug": "abonflow",
-      "title": "AbonFlow",
-      "reference": 79,
+      "slug": "slotline",
+      "title": "SlotLine",
+      "reference": 71,
       "tests": 7,
-      "scope": "Абонементы, резерв занятий и посещения: отмена освобождает резерв, посещение расходует занятие. Сервер проверен локально.",
-      "repository": "https://github.com/wpalish/abonflow",
-      "source": "https://wpalish.github.io/startup-lab-kz/downloads/abonflow.zip",
-      "name": "AbonFlow",
+      "scope": "Администратор задаёт длительность услуги и буфер сотрудника; при записи сервер вычисляет конец и проверяет пересечение вместе с буфером. Нет WhatsApp, SMS, платежей и синхронизации внешних календарей.",
+      "repository": "https://github.com/wpalish/slotline",
+      "commit": "a0e9b33427570073a9a17fbd964ab295083c0bc0",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "a0e9b33427570073a9a17fbd964ab295083c0bc0",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/slotline/actions/runs/40114436706"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/slotline.zip",
+      "name": "SlotLine",
       "version": "0.1.0",
       "status": "separate_repo_verified_workflow",
       "references": [
-        79
-      ]
-    },
-    {
-      "slug": "applylens",
-      "title": "ApplyLens",
-      "reference": 51,
-      "tests": 6,
-      "scope": "Сопоставление собственного резюме с явными требованиями вакансии, без ATS-оценки и выдуманного опыта. Сервер проверен локально.",
-      "repository": "https://github.com/wpalish/applylens",
-      "source": "https://wpalish.github.io/startup-lab-kz/downloads/applylens.zip",
-      "name": "ApplyLens",
-      "version": "0.1.0",
-      "status": "separate_repo_verified_workflow",
-      "references": [
-        51
-      ]
-    },
-    {
-      "slug": "branchlearn",
-      "title": "BranchLearn",
-      "reference": 88,
-      "tests": 7,
-      "scope": "Пакеты обучения сотрудников с назначениями и проверяемыми ответами на контрольные вопросы. Это рабочий журнал, не защищённый экзамен. Сервер проверен локально.",
-      "repository": "https://github.com/wpalish/branchlearn",
-      "source": "https://wpalish.github.io/startup-lab-kz/downloads/branchlearn.zip",
-      "name": "BranchLearn",
-      "version": "0.1.0",
-      "status": "separate_repo_verified_workflow",
-      "references": [
-        88
+        71
       ]
     },
     {
@@ -85,8 +80,16 @@
       "title": "BudgetGate",
       "reference": 66,
       "tests": 7,
-      "scope": "Заявки на расходы, независимое согласование и резервирование лимита подразделения. Деньги не переводятся. Сервер проверен локально.",
+      "scope": "Сотрудник подаёт заявку в пределах бюджета; другой администратор утверждает её. Утверждённые заявки резервируют лимит, отметка расхода сохраняет его использование. Переводов и банковских операций нет. Пометка расхода вводится человеком.",
       "repository": "https://github.com/wpalish/budgetgate",
+      "commit": "a36994b8d4a9dec5dd8564ab70f0bc635631ff8f",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "a36994b8d4a9dec5dd8564ab70f0bc635631ff8f",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/budgetgate/actions/runs/40119317653"
+      },
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/budgetgate.zip",
       "name": "BudgetGate",
       "version": "0.1.0",
@@ -96,12 +99,181 @@
       ]
     },
     {
+      "slug": "receiptlane",
+      "title": "ReceiptLane",
+      "reference": 65,
+      "tests": 5,
+      "scope": "Сотрудник составляет отчёт с расходами и ссылками на подтверждения, подаёт его другому администратору; тот утверждает и вручную отмечает возмещение. После подачи суммы защищены от правок. Нет OCR, загрузки чеков, банковского возмещения или бухгалтерской интеграции.",
+      "repository": "https://github.com/wpalish/receiptlane",
+      "commit": "5d0595976e9a16b0f357e62d4464b2fc90d63772",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "5d0595976e9a16b0f357e62d4464b2fc90d63772",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/receiptlane/actions/runs/40123807169"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/receiptlane.zip",
+      "name": "ReceiptLane",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        65
+      ]
+    },
+    {
+      "slug": "offerpath",
+      "title": "OfferPath",
+      "reference": 69,
+      "tests": 6,
+      "scope": "Менеджер фиксирует предмет, цену, валюту, срок и условия предложения. Ручное подтверждение принятия требует основания и замораживает согласованные поля. Не электронная подпись, не отправка договора и не подтверждение юридического заключения сделки.",
+      "repository": "https://github.com/wpalish/offerpath",
+      "commit": "f7bc2262bdc2358c56882299b4039f6d5b3f3ac4",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "f7bc2262bdc2358c56882299b4039f6d5b3f3ac4",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/offerpath/actions/runs/40124711735"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/offerpath.zip",
+      "name": "OfferPath",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        69
+      ]
+    },
+    {
+      "slug": "roomgrid",
+      "title": "RoomGrid",
+      "reference": 80,
+      "tests": 5,
+      "scope": "Администратор заводит помещение с вместимостью и бронирует интервал. Сервер отклоняет пересечение и превышение вместимости. Нет общего календаря Google, оплаты, повторяющихся броней и публичного бронирования.",
+      "repository": "https://github.com/wpalish/roomgrid",
+      "commit": "2f482475eeeb08b088e3a2e7ceee4b5308bb225a",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "2f482475eeeb08b088e3a2e7ceee4b5308bb225a",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/roomgrid/actions/runs/40124714437"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/roomgrid.zip",
+      "name": "RoomGrid",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        80
+      ]
+    },
+    {
+      "slug": "stepbook",
+      "title": "StepBook",
+      "reference": 86,
+      "tests": 7,
+      "scope": "Сотрудник составляет инструкцию с последовательными действиями и ожидаемым результатом. Публикация требует полного порядка шагов и актуальной даты проверки. Экран автоматически не записывается; нет браузерного расширения и захвата снимков.",
+      "repository": "https://github.com/wpalish/stepbook",
+      "commit": "8c8ffde729b773962220efd08e00518e0ebe6be2",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "8c8ffde729b773962220efd08e00518e0ebe6be2",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/stepbook/actions/runs/40128420715"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/stepbook.zip",
+      "name": "StepBook",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        86
+      ]
+    },
+    {
+      "slug": "ruleshelf",
+      "title": "RuleShelf",
+      "reference": 89,
+      "tests": 7,
+      "scope": "Администратор публикует версию регламента с источником и сроком проверки. Сотрудник фиксирует ознакомление именно с этой версией; изменённый текст требует новой версии. Отметка ознакомления не является электронной подписью или юридическим подтверждением согласия.",
+      "repository": "https://github.com/wpalish/ruleshelf",
+      "commit": "78662194bd5bd5921aa668beeaed8cf7211ca036",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "78662194bd5bd5921aa668beeaed8cf7211ca036",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/ruleshelf/actions/runs/40132861505"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/ruleshelf.zip",
+      "name": "RuleShelf",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        89
+      ]
+    },
+    {
+      "slug": "branchlearn",
+      "title": "BranchLearn",
+      "reference": 88,
+      "tests": 7,
+      "scope": "Наставник публикует учебный материал и контрольный вопрос, назначает его сотруднику и фиксирует ответ. Точный ответ сравнивается с ключом. Участники работают в общем кабинете; ключ виден сотрудникам. Нет защищённого экзамена и отдельного ученического портала.",
+      "repository": "https://github.com/wpalish/branchlearn",
+      "commit": "9a31adf520c58b956b330c7f2c0a60bc842077d9",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "9a31adf520c58b956b330c7f2c0a60bc842077d9",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/branchlearn/actions/runs/40136855126"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/branchlearn.zip",
+      "name": "BranchLearn",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        88
+      ]
+    },
+    {
+      "slug": "applylens",
+      "title": "ApplyLens",
+      "reference": 51,
+      "tests": 6,
+      "scope": "Консультант сопоставляет переданный соискателем текст резюме с буквальными формулировками требований вакансии и разбирает найденные и отсутствующие фразы. Это буквальное сопоставление, не семантическая оценка, не ATS-рейтинг и не решение о найме. PDF/DOCX не разбираются.",
+      "repository": "https://github.com/wpalish/applylens",
+      "commit": "300bd2357f999ad54aaccf0b0a8a4e607bd90791",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "300bd2357f999ad54aaccf0b0a8a4e607bd90791",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/applylens/actions/runs/40141505382"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/applylens.zip",
+      "name": "ApplyLens",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        51
+      ]
+    },
+    {
       "slug": "dataline",
       "title": "DataLine",
       "reference": 18,
       "tests": 6,
-      "scope": "Таблица деловых контактов и связанных следующих действий. Сервер проверен локально.",
+      "scope": "Менеджер ведёт контакты и связанные следующие действия. Повторный email и неверная связь отклоняются; контакт с открытым действием нельзя архивировать. Нет импорта сторонних баз, внешнего поиска контактов, почтового сервиса или CRM-интеграции.",
       "repository": "https://github.com/wpalish/dataline",
+      "commit": "5904335daa1c6ce1e6d0ae15f175886d97bcf75b",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "5904335daa1c6ce1e6d0ae15f175886d97bcf75b",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/dataline/actions/runs/40145352472"
+      },
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/dataline.zip",
       "name": "DataLine",
       "version": "0.1.0",
@@ -115,8 +287,16 @@
       "title": "FormaKZ",
       "reference": 99,
       "tests": 7,
-      "scope": "Настройка текстовой формы и приём публичных заявок в закрытый кабинет с проверкой обязательных ответов. Сервер проверен локально.",
+      "scope": "Администратор публикует 1–20 обязательных текстовых вопросов, посетитель отправляет ответы по открытой ссылке; сотрудники читают их в закрытом кабинете и отмечают просмотр. Нет файлов, условных веток, оплаты, встроенного согласия на обработку данных и anti-bot сервиса. Для реального сбора данных оператор добавляет свой текст согласия и меры защиты.",
       "repository": "https://github.com/wpalish/formakz",
+      "commit": "c758f614692ced27be82f46c27521e381cdd5af4",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "c758f614692ced27be82f46c27521e381cdd5af4",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/formakz/actions/runs/40149309195"
+      },
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/formakz.zip",
       "name": "FormaKZ",
       "version": "0.1.0",
@@ -126,27 +306,20 @@
       ]
     },
     {
-      "slug": "offerpath",
-      "title": "OfferPath",
-      "reference": 69,
-      "tests": 6,
-      "scope": "Коммерческие предложения с составом, сроком действия, версиями и ручной фиксацией подтверждения; электронной подписи нет. Сервер проверен локально.",
-      "repository": "https://github.com/wpalish/offerpath",
-      "source": "https://wpalish.github.io/startup-lab-kz/downloads/offerpath.zip",
-      "name": "OfferPath",
-      "version": "0.1.0",
-      "status": "separate_repo_verified_workflow",
-      "references": [
-        69
-      ]
-    },
-    {
       "slug": "protocollane",
       "title": "ProtocolLane",
       "reference": 81,
       "tests": 7,
-      "scope": "Проверяемые задачи из вставленного протокола: точная цитата, ответственный, срок и состояние. Аудиозапись и ASR отсутствуют. Сервер проверен локально.",
+      "scope": "Координатор вставляет разрешённую расшифровку, выбирает дословную цитату и связывает с ней задачу, ответственного и срок. Цитата обязана присутствовать в тексте. Аудио не записывает и не распознаёт; задачи человек формулирует сам.",
       "repository": "https://github.com/wpalish/protocollane",
+      "commit": "783619e4a871190590884b0941be130da88420c4",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "783619e4a871190590884b0941be130da88420c4",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/protocollane/actions/runs/40152943253"
+      },
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/protocollane.zip",
       "name": "ProtocolLane",
       "version": "0.1.0",
@@ -156,27 +329,20 @@
       ]
     },
     {
-      "slug": "qoldau-invoice",
-      "title": "Qoldau Invoice",
-      "reference": 62,
-      "tests": 5,
-      "scope": "Счета, строки и ручная сверка частичных оплат с проверкой остатка. Без приёма платежей и налоговых документов. Сервер проверен локально.",
-      "repository": "https://github.com/wpalish/qoldau-invoice",
-      "source": "https://wpalish.github.io/startup-lab-kz/downloads/qoldau-invoice.zip",
-      "name": "Qoldau Invoice",
-      "version": "0.1.0",
-      "status": "separate_repo_verified_workflow",
-      "references": [
-        62
-      ]
-    },
-    {
       "slug": "quotegate",
       "title": "QuoteGate",
       "reference": 100,
       "tests": 8,
-      "scope": "Публичный предварительный расчёт услуги из утверждённого тарифа с неизменным снимком цены в заявке. Сервер проверен локально.",
+      "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно.",
       "repository": "https://github.com/wpalish/quotegate",
+      "commit": "0fda124f18b883de8a69939de53fab78209e7225",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "0fda124f18b883de8a69939de53fab78209e7225",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/quotegate/actions/runs/40157085265"
+      },
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/quotegate.zip",
       "name": "QuoteGate",
       "version": "0.1.0",
@@ -186,42 +352,20 @@
       ]
     },
     {
-      "slug": "receiptlane",
-      "title": "ReceiptLane",
-      "reference": 65,
-      "tests": 5,
-      "scope": "Сбор и согласование отчётов о расходах с ручными ссылками на подтверждения. OCR и банковских списаний нет. Сервер проверен локально.",
-      "repository": "https://github.com/wpalish/receiptlane",
-      "source": "https://wpalish.github.io/startup-lab-kz/downloads/receiptlane.zip",
-      "name": "ReceiptLane",
-      "version": "0.1.0",
-      "status": "separate_repo_verified_workflow",
-      "references": [
-        65
-      ]
-    },
-    {
-      "slug": "roomgrid",
-      "title": "RoomGrid",
-      "reference": 80,
-      "tests": 5,
-      "scope": "Бронирование комнат с ограничением вместимости и проверкой пересечений во времени. Сервер проверен локально.",
-      "repository": "https://github.com/wpalish/roomgrid",
-      "source": "https://wpalish.github.io/startup-lab-kz/downloads/roomgrid.zip",
-      "name": "RoomGrid",
-      "version": "0.1.0",
-      "status": "separate_repo_verified_workflow",
-      "references": [
-        80
-      ]
-    },
-    {
       "slug": "routeboard",
       "title": "RouteBoard",
       "reference": 56,
       "tests": 6,
-      "scope": "Личный журнал вакансий, этапов и следующих действий. Отправка откликов остаётся отдельным действием человека. Сервер проверен локально.",
+      "scope": "Консультант вручную ведёт этапы поиска работы и следующие действия с датами. Карточку с открытой задачей нельзя архивировать. Нет автоматических откликов, агрегатора вакансий и обещаний трудоустройства.",
       "repository": "https://github.com/wpalish/routeboard",
+      "commit": "7f71c0ff2acbe8ff8614dce56e7df3961447a170",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "7f71c0ff2acbe8ff8614dce56e7df3961447a170",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/routeboard/actions/runs/40161032288"
+      },
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/routeboard.zip",
       "name": "RouteBoard",
       "version": "0.1.0",
@@ -231,78 +375,119 @@
       ]
     },
     {
-      "slug": "ruleshelf",
-      "title": "RuleShelf",
-      "reference": 89,
-      "tests": 7,
-      "scope": "Версии регламентов, сроки пересмотра и отметки ознакомления с конкретной версией. Сервер проверен локально.",
-      "repository": "https://github.com/wpalish/ruleshelf",
-      "source": "https://wpalish.github.io/startup-lab-kz/downloads/ruleshelf.zip",
-      "name": "RuleShelf",
-      "version": "0.1.0",
-      "status": "separate_repo_verified_workflow",
-      "references": [
-        89
-      ]
-    },
-    {
-      "slug": "scopesum",
-      "title": "ScopeSum",
-      "reference": 63,
-      "tests": 5,
-      "scope": "Предварительная смета проекта с себестоимостью, резервом и скидкой; подписанный договор не создаётся. Сервер проверен локально.",
-      "repository": "https://github.com/wpalish/scopesum",
-      "source": "https://wpalish.github.io/startup-lab-kz/downloads/scopesum.zip",
-      "name": "ScopeSum",
-      "version": "0.1.0",
-      "status": "separate_repo_verified_workflow",
-      "references": [
-        63
-      ]
-    },
-    {
-      "slug": "slotline",
-      "title": "SlotLine",
-      "reference": 71,
-      "tests": 7,
-      "scope": "Расписание услуг сотрудников с вычислением окончания и запретом пересечений, включая буфер. Сервер проверен локально.",
-      "repository": "https://github.com/wpalish/slotline",
-      "source": "https://wpalish.github.io/startup-lab-kz/downloads/slotline.zip",
-      "name": "SlotLine",
-      "version": "0.1.0",
-      "status": "separate_repo_verified_workflow",
-      "references": [
-        71
-      ]
-    },
-    {
-      "slug": "stepbook",
-      "title": "StepBook",
-      "reference": 86,
-      "tests": 7,
-      "scope": "Пошаговые инструкции с результатом каждого шага и отдельной проверкой перед публикацией внутри команды. Сервер проверен локально.",
-      "repository": "https://github.com/wpalish/stepbook",
-      "source": "https://wpalish.github.io/startup-lab-kz/downloads/stepbook.zip",
-      "name": "StepBook",
-      "version": "0.1.0",
-      "status": "separate_repo_verified_workflow",
-      "references": [
-        86
-      ]
-    },
-    {
       "slug": "turnoverline",
       "title": "TurnoverLine",
       "reference": 77,
       "tests": 7,
-      "scope": "Уборка и обслуживание между заездами с проверкой окна до следующего гостя. Без OTA-интеграций. Сервер проверен локально.",
+      "scope": "Администратор ведёт объекты и заезды, ставит задачи подготовки между выездом и следующим заселением. Пересечения проживания и срок подготовки вне окна отклоняются. Нет Booking/Airbnb/Exely, канал-менеджера, оплаты, уборочного мобильного приложения и автоматической диспетчеризации.",
       "repository": "https://github.com/wpalish/turnoverline",
+      "commit": "42310296fe4ffc11dfb4a7e82a2a9cef57a74cc9",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "42310296fe4ffc11dfb4a7e82a2a9cef57a74cc9",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/turnoverline/actions/runs/40164852725"
+      },
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/turnoverline.zip",
       "name": "TurnoverLine",
       "version": "0.1.0",
       "status": "separate_repo_verified_workflow",
       "references": [
         77
+      ]
+    },
+    {
+      "slug": "sabaqloop",
+      "title": "SabaqLoop",
+      "reference": 43,
+      "tests": 17,
+      "scope": "Авторские вопросы с источником → одобрение преподавателя → практика → объяснение и повтор ошибки → копия и история версий. Один браузер, localStorage, без облачных аккаунтов класса, LMS и AI-оценки.",
+      "repository": "https://github.com/wpalish/sabaqloop",
+      "commit": "0f9b89a9d01d4f5704bcec439752b442f1303480",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "0f9b89a9d01d4f5704bcec439752b442f1303480",
+        "name": "Verify and publish SabaqLoop",
+        "status": "completed",
+        "url": "https://github.com/wpalish/sabaqloop/actions/runs/40168503128"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/sabaqloop.zip",
+      "demo": "https://wpalish.github.io/sabaqloop/",
+      "name": "SabaqLoop",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        43
+      ]
+    },
+    {
+      "slug": "derekdesk",
+      "title": "DerekDesk",
+      "reference": 1,
+      "tests": 27,
+      "scope": "Утверждённый RU/KK ответ → источник/срок → сотрудник → собственный ответ посетителя; отзыв доступа оператора. Точные фразы; нет LLM, мессенджеров и публичного облачного сервера. Нет самостоятельного восстановления пароля.",
+      "repository": "https://github.com/wpalish/derekdesk",
+      "commit": "a2be8f336a5049db93f0928cb18d0efc399e19c7",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "a2be8f336a5049db93f0928cb18d0efc399e19c7",
+        "name": "Verify DerekDesk",
+        "status": "completed",
+        "url": "https://github.com/wpalish/derekdesk/actions/runs/40172601579"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/derekdesk.zip",
+      "name": "DerekDesk",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        1
+      ]
+    },
+    {
+      "slug": "abonflow",
+      "title": "AbonFlow",
+      "reference": 79,
+      "tests": 7,
+      "scope": "Администратор клуба учитывает остаток занятий: создаёт абонемент, резервирует посещение, отмечает факт или отмену. Отмена освобождает резерв, просроченный или исчерпанный абонемент не расходуется. Нет оплаты, автоматического продления и рассылок.",
+      "repository": "https://github.com/wpalish/abonflow",
+      "commit": "ad42f334807e3ce486e1fb6b57f633def58e2b6c",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "ad42f334807e3ce486e1fb6b57f633def58e2b6c",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/abonflow/actions/runs/40175824514"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/abonflow.zip",
+      "name": "AbonFlow",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        79
+      ]
+    },
+    {
+      "slug": "qor-stock",
+      "title": "QorStock",
+      "reference": 2,
+      "tests": 14,
+      "scope": "Наличие товара и доставка по свежим данным: предварительная оценка или запрос оператору с сохранённым снимком. Ручной каталог · Только KZT · Без резерва, оплаты, AI и подключения к складу",
+      "repository": "https://github.com/wpalish/qor-stock",
+      "commit": "6b394713547d102263b25e8a1a40416e6bf5514e",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "6b394713547d102263b25e8a1a40416e6bf5514e",
+        "name": "Test",
+        "status": "completed",
+        "url": "https://github.com/wpalish/qor-stock/actions/runs/40179363635"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/qor-stock.zip",
+      "name": "QorStock",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        2
       ]
     }
   ],
@@ -332,8 +517,8 @@
       "status": "separate_repo_verified_workflow",
       "product_slug": "derekdesk",
       "repository": "https://github.com/wpalish/derekdesk",
-      "source_archive": null,
-      "scope": "Точные RU/KK ответы и очередь сотрудника; сервер проверен локально"
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/derekdesk.zip",
+      "scope": "Утверждённый RU/KK ответ → источник/срок → сотрудник → собственный ответ посетителя; отзыв доступа оператора. Точные фразы; нет LLM, мессенджеров и публичного облачного сервера. Нет самостоятельного восстановления пароля."
     },
     {
       "id": 2,
@@ -356,7 +541,12 @@
       "implementation_path": null,
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "qor-stock",
+      "repository": "https://github.com/wpalish/qor-stock",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/qor-stock.zip",
+      "scope": "Наличие товара и доставка по свежим данным: предварительная оценка или запрос оператору с сохранённым снимком. Ручной каталог · Только KZT · Без резерва, оплаты, AI и подключения к складу"
     },
     {
       "id": 3,
@@ -729,7 +919,7 @@
       "product_slug": "dataline",
       "repository": "https://github.com/wpalish/dataline",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/dataline.zip",
-      "scope": "Таблица деловых контактов и связанных следующих действий. Сервер проверен локально."
+      "scope": "Менеджер ведёт контакты и связанные следующие действия. Повторный email и неверная связь отклоняются; контакт с открытым действием нельзя архивировать. Нет импорта сторонних баз, внешнего поиска контактов, почтового сервиса или CRM-интеграции."
     },
     {
       "id": 19,
@@ -1308,8 +1498,8 @@
       "repository": "https://github.com/wpalish/sabaqloop",
       "status": "separate_repo_verified_workflow",
       "product_slug": "sabaqloop",
-      "source_archive": null,
-      "scope": "Браузерная практика, без облачных кабинетов класса"
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/sabaqloop.zip",
+      "scope": "Авторские вопросы с источником → одобрение преподавателя → практика → объяснение и повтор ошибки → копия и история версий. Один браузер, localStorage, без облачных аккаунтов класса, LMS и AI-оценки."
     },
     {
       "id": 44,
@@ -1498,7 +1688,7 @@
       "product_slug": "applylens",
       "repository": "https://github.com/wpalish/applylens",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/applylens.zip",
-      "scope": "Сопоставление собственного резюме с явными требованиями вакансии, без ATS-оценки и выдуманного опыта. Сервер проверен локально."
+      "scope": "Консультант сопоставляет переданный соискателем текст резюме с буквальными формулировками требований вакансии и разбирает найденные и отсутствующие фразы. Это буквальное сопоставление, не семантическая оценка, не ATS-рейтинг и не решение о найме. PDF/DOCX не разбираются."
     },
     {
       "id": 52,
@@ -1618,7 +1808,7 @@
       "product_slug": "routeboard",
       "repository": "https://github.com/wpalish/routeboard",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/routeboard.zip",
-      "scope": "Личный журнал вакансий, этапов и следующих действий. Отправка откликов остаётся отдельным действием человека. Сервер проверен локально."
+      "scope": "Консультант вручную ведёт этапы поиска работы и следующие действия с датами. Карточку с открытой задачей нельзя архивировать. Нет автоматических откликов, агрегатора вакансий и обещаний трудоустройства."
     },
     {
       "id": 57,
@@ -1761,7 +1951,7 @@
       "product_slug": "qoldau-invoice",
       "repository": "https://github.com/wpalish/qoldau-invoice",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/qoldau-invoice.zip",
-      "scope": "Счета, строки и ручная сверка частичных оплат с проверкой остатка. Без приёма платежей и налоговых документов. Сервер проверен локально."
+      "scope": "Менеджер создаёт клиента, счёт и позиции, выпускает положительный счёт, вручную отмечает оплату. Итог и остаток считаются в целых минимальных денежных единицах; переплата отклоняется. Не налоговая система и не приём платежей; отметка оплаты не проверяет банк."
     },
     {
       "id": 63,
@@ -1789,7 +1979,7 @@
       "product_slug": "scopesum",
       "repository": "https://github.com/wpalish/scopesum",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/scopesum.zip",
-      "scope": "Предварительная смета проекта с себестоимостью, резервом и скидкой; подписанный договор не создаётся. Сервер проверен локально."
+      "scope": "Менеджер составляет смету с количеством, ценой, себестоимостью, резервом и скидкой. Система считает итог и управленческую маржу до налогов; принятую смету нельзя менять. Не бухгалтерия, не налоговый расчёт и не банковская операция."
     },
     {
       "id": 64,
@@ -1840,7 +2030,7 @@
       "product_slug": "receiptlane",
       "repository": "https://github.com/wpalish/receiptlane",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/receiptlane.zip",
-      "scope": "Сбор и согласование отчётов о расходах с ручными ссылками на подтверждения. OCR и банковских списаний нет. Сервер проверен локально."
+      "scope": "Сотрудник составляет отчёт с расходами и ссылками на подтверждения, подаёт его другому администратору; тот утверждает и вручную отмечает возмещение. После подачи суммы защищены от правок. Нет OCR, загрузки чеков, банковского возмещения или бухгалтерской интеграции."
     },
     {
       "id": 66,
@@ -1868,7 +2058,7 @@
       "product_slug": "budgetgate",
       "repository": "https://github.com/wpalish/budgetgate",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/budgetgate.zip",
-      "scope": "Заявки на расходы, независимое согласование и резервирование лимита подразделения. Деньги не переводятся. Сервер проверен локально."
+      "scope": "Сотрудник подаёт заявку в пределах бюджета; другой администратор утверждает её. Утверждённые заявки резервируют лимит, отметка расхода сохраняет его использование. Переводов и банковских операций нет. Пометка расхода вводится человеком."
     },
     {
       "id": 67,
@@ -1942,7 +2132,7 @@
       "product_slug": "offerpath",
       "repository": "https://github.com/wpalish/offerpath",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/offerpath.zip",
-      "scope": "Коммерческие предложения с составом, сроком действия, версиями и ручной фиксацией подтверждения; электронной подписи нет. Сервер проверен локально."
+      "scope": "Менеджер фиксирует предмет, цену, валюту, срок и условия предложения. Ручное подтверждение принятия требует основания и замораживает согласованные поля. Не электронная подпись, не отправка договора и не подтверждение юридического заключения сделки."
     },
     {
       "id": 70,
@@ -1993,7 +2183,7 @@
       "product_slug": "slotline",
       "repository": "https://github.com/wpalish/slotline",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/slotline.zip",
-      "scope": "Расписание услуг сотрудников с вычислением окончания и запретом пересечений, включая буфер. Сервер проверен локально."
+      "scope": "Администратор задаёт длительность услуги и буфер сотрудника; при записи сервер вычисляет конец и проверяет пересечение вместе с буфером. Нет WhatsApp, SMS, платежей и синхронизации внешних календарей."
     },
     {
       "id": 72,
@@ -2136,7 +2326,7 @@
       "product_slug": "turnoverline",
       "repository": "https://github.com/wpalish/turnoverline",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/turnoverline.zip",
-      "scope": "Уборка и обслуживание между заездами с проверкой окна до следующего гостя. Без OTA-интеграций. Сервер проверен локально."
+      "scope": "Администратор ведёт объекты и заезды, ставит задачи подготовки между выездом и следующим заселением. Пересечения проживания и срок подготовки вне окна отклоняются. Нет Booking/Airbnb/Exely, канал-менеджера, оплаты, уборочного мобильного приложения и автоматической диспетчеризации."
     },
     {
       "id": 78,
@@ -2187,7 +2377,7 @@
       "product_slug": "abonflow",
       "repository": "https://github.com/wpalish/abonflow",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/abonflow.zip",
-      "scope": "Абонементы, резерв занятий и посещения: отмена освобождает резерв, посещение расходует занятие. Сервер проверен локально."
+      "scope": "Администратор клуба учитывает остаток занятий: создаёт абонемент, резервирует посещение, отмечает факт или отмену. Отмена освобождает резерв, просроченный или исчерпанный абонемент не расходуется. Нет оплаты, автоматического продления и рассылок."
     },
     {
       "id": 80,
@@ -2215,7 +2405,7 @@
       "product_slug": "roomgrid",
       "repository": "https://github.com/wpalish/roomgrid",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/roomgrid.zip",
-      "scope": "Бронирование комнат с ограничением вместимости и проверкой пересечений во времени. Сервер проверен локально."
+      "scope": "Администратор заводит помещение с вместимостью и бронирует интервал. Сервер отклоняет пересечение и превышение вместимости. Нет общего календаря Google, оплаты, повторяющихся броней и публичного бронирования."
     },
     {
       "id": 81,
@@ -2243,7 +2433,7 @@
       "product_slug": "protocollane",
       "repository": "https://github.com/wpalish/protocollane",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/protocollane.zip",
-      "scope": "Проверяемые задачи из вставленного протокола: точная цитата, ответственный, срок и состояние. Аудиозапись и ASR отсутствуют. Сервер проверен локально."
+      "scope": "Координатор вставляет разрешённую расшифровку, выбирает дословную цитату и связывает с ней задачу, ответственного и срок. Цитата обязана присутствовать в тексте. Аудио не записывает и не распознаёт; задачи человек формулирует сам."
     },
     {
       "id": 82,
@@ -2363,7 +2553,7 @@
       "product_slug": "stepbook",
       "repository": "https://github.com/wpalish/stepbook",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/stepbook.zip",
-      "scope": "Пошаговые инструкции с результатом каждого шага и отдельной проверкой перед публикацией внутри команды. Сервер проверен локально."
+      "scope": "Сотрудник составляет инструкцию с последовательными действиями и ожидаемым результатом. Публикация требует полного порядка шагов и актуальной даты проверки. Экран автоматически не записывается; нет браузерного расширения и захвата снимков."
     },
     {
       "id": 87,
@@ -2414,7 +2604,7 @@
       "product_slug": "branchlearn",
       "repository": "https://github.com/wpalish/branchlearn",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/branchlearn.zip",
-      "scope": "Пакеты обучения сотрудников с назначениями и проверяемыми ответами на контрольные вопросы. Это рабочий журнал, не защищённый экзамен. Сервер проверен локально."
+      "scope": "Наставник публикует учебный материал и контрольный вопрос, назначает его сотруднику и фиксирует ответ. Точный ответ сравнивается с ключом. Участники работают в общем кабинете; ключ виден сотрудникам. Нет защищённого экзамена и отдельного ученического портала."
     },
     {
       "id": 89,
@@ -2442,7 +2632,7 @@
       "product_slug": "ruleshelf",
       "repository": "https://github.com/wpalish/ruleshelf",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/ruleshelf.zip",
-      "scope": "Версии регламентов, сроки пересмотра и отметки ознакомления с конкретной версией. Сервер проверен локально."
+      "scope": "Администратор публикует версию регламента с источником и сроком проверки. Сотрудник фиксирует ознакомление именно с этой версией; изменённый текст требует новой версии. Отметка ознакомления не является электронной подписью или юридическим подтверждением согласия."
     },
     {
       "id": 90,
@@ -2677,7 +2867,7 @@
       "product_slug": "formakz",
       "repository": "https://github.com/wpalish/formakz",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/formakz.zip",
-      "scope": "Настройка текстовой формы и приём публичных заявок в закрытый кабинет с проверкой обязательных ответов. Сервер проверен локально."
+      "scope": "Администратор публикует 1–20 обязательных текстовых вопросов, посетитель отправляет ответы по открытой ссылке; сотрудники читают их в закрытом кабинете и отмечают просмотр. Нет файлов, условных веток, оплаты, встроенного согласия на обработку данных и anti-bot сервиса. Для реального сбора данных оператор добавляет свой текст согласия и меры защиты."
     },
     {
       "id": 100,
@@ -2705,8 +2895,8 @@
       "product_slug": "quotegate",
       "repository": "https://github.com/wpalish/quotegate",
       "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/quotegate.zip",
-      "scope": "Публичный предварительный расчёт услуги из утверждённого тарифа с неизменным снимком цены в заявке. Сервер проверен локально."
+      "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 20
+  "public_repository_count": 21
 }
