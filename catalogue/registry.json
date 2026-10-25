@@ -294,7 +294,7 @@
       "slug": "turnoverline",
       "title": "TurnoverLine",
       "reference": 77,
-      "tests": 4,
+      "tests": 7,
       "scope": "Уборка и обслуживание между заездами с проверкой окна до следующего гостя. Без OTA-интеграций. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/turnoverline",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/turnoverline.zip",
