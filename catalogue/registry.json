@@ -39,7 +39,7 @@
       "slug": "abonflow",
       "title": "AbonFlow",
       "reference": 79,
-      "tests": 5,
+      "tests": 7,
       "scope": "Абонементы, резерв занятий и посещения: отмена освобождает резерв, посещение расходует занятие. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/abonflow",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/abonflow.zip",
