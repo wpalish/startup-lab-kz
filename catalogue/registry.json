@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-25",
   "reference_count": 100,
-  "implemented_product_count": 27,
-  "reference_only_count": 73,
+  "implemented_product_count": 28,
+  "reference_only_count": 72,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "27 original bounded working products;73 references remain queued;source archives are not additional products",
+  "counts_explanation": "28 original bounded working products;72 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -627,6 +627,29 @@
       "references": [
         8
       ]
+    },
+    {
+      "slug": "terim-line",
+      "title": "TerimLine",
+      "reference": 9,
+      "tests": 26,
+      "scope": "Синтетическое keypad-меню RU/KK: опубликованная версия → события владельца → точный исход и история. Общая область · Текстовая репетиция · Без звонков,голоса,AI и внешней передачи",
+      "repository": "https://github.com/wpalish/terim-line",
+      "commit": "3271b822bad9ce9c490de6ceec572b859bebf0d4",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "3271b822bad9ce9c490de6ceec572b859bebf0d4",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/terim-line/actions/runs/40201149677"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/terim-line.zip",
+      "name": "TerimLine",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        9
+      ]
     }
   ],
   "items": [
@@ -871,11 +894,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/terim-line",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс TerimLine реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "terim-line",
+      "repository": "https://github.com/wpalish/terim-line",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/terim-line.zip",
+      "scope": "Синтетическое keypad-меню RU/KK: опубликованная версия → события владельца → точный исход и история. Общая область · Текстовая репетиция · Без звонков,голоса,AI и внешней передачи"
     },
     {
       "id": 10,
@@ -3066,5 +3094,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 27
+  "public_repository_count": 28
 }
