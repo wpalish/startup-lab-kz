@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-26",
   "reference_count": 100,
-  "implemented_product_count": 35,
-  "reference_only_count": 65,
+  "implemented_product_count": 36,
+  "reference_only_count": 64,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "35 original bounded working products;65 references remain queued;source archives are not additional products",
+  "counts_explanation": "36 original bounded working products;64 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -811,6 +811,29 @@
       "references": [
         16
       ]
+    },
+    {
+      "slug": "kadam-run",
+      "title": "KadamRun",
+      "reference": 17,
+      "tests": 24,
+      "scope": "Опубликованный текстовый рецепт → явный шаг → сохранённый checkpoint и ограниченный повтор синтетического сбоя. Только вымышленный текст и моделируемые сбои · Без фонового выполнения, интеграций, AI и сообщений",
+      "repository": "https://github.com/wpalish/kadam-run",
+      "commit": "0e6af4d1dbc296f6ddb9a4f6ed1a1adca9476a44",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "0e6af4d1dbc296f6ddb9a4f6ed1a1adca9476a44",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/kadam-run/actions/runs/40234794502"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/kadam-run.zip",
+      "name": "KadamRun",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        17
+      ]
     }
   ],
   "items": [
@@ -1279,11 +1302,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/kadam-run",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс KadamRun реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "kadam-run",
+      "repository": "https://github.com/wpalish/kadam-run",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/kadam-run.zip",
+      "scope": "Опубликованный текстовый рецепт → явный шаг → сохранённый checkpoint и ограниченный повтор синтетического сбоя. Только вымышленный текст и моделируемые сбои · Без фонового выполнения, интеграций, AI и сообщений"
     },
     {
       "id": 18,
@@ -3290,5 +3318,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 35
+  "public_repository_count": 36
 }
