@@ -114,7 +114,7 @@
       "slug": "formakz",
       "title": "FormaKZ",
       "reference": 99,
-      "tests": 5,
+      "tests": 7,
       "scope": "Настройка текстовой формы и приём публичных заявок в закрытый кабинет с проверкой обязательных ответов. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/formakz",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/formakz.zip",
