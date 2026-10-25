@@ -174,7 +174,7 @@
       "slug": "quotegate",
       "title": "QuoteGate",
       "reference": 100,
-      "tests": 5,
+      "tests": 8,
       "scope": "Публичный предварительный расчёт услуги из утверждённого тарифа с неизменным снимком цены в заявке. Сервер проверен локально.",
       "repository": "https://github.com/wpalish/quotegate",
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/quotegate.zip",
