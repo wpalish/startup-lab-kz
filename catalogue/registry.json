@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-25",
   "reference_count": 100,
-  "implemented_product_count": 30,
-  "reference_only_count": 70,
+  "implemented_product_count": 31,
+  "reference_only_count": 69,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "30 original bounded working products;70 references remain queued;source archives are not additional products",
+  "counts_explanation": "31 original bounded working products;69 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -696,6 +696,29 @@
       "references": [
         11
       ]
+    },
+    {
+      "slug": "jinaq-kit",
+      "title": "JinaqKit",
+      "reference": 12,
+      "tests": 20,
+      "scope": "Синтетические комплекты: опубликованный рецепт, целое списание всех компонентов и отдельный полный возврат. Общая локальная область · Целые штуки · Без физического склада, заказов, Make-интеграций и платежей",
+      "repository": "https://github.com/wpalish/jinaq-kit",
+      "commit": "34f2c652aa46335a43b24991a2ed32d0721d7467",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "34f2c652aa46335a43b24991a2ed32d0721d7467",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/jinaq-kit/actions/runs/40215020767"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/jinaq-kit.zip",
+      "name": "JinaqKit",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        12
+      ]
     }
   ],
   "items": [
@@ -1024,11 +1047,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/jinaq-kit",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс JinaqKit реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "jinaq-kit",
+      "repository": "https://github.com/wpalish/jinaq-kit",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/jinaq-kit.zip",
+      "scope": "Синтетические комплекты: опубликованный рецепт, целое списание всех компонентов и отдельный полный возврат. Общая локальная область · Целые штуки · Без физического склада, заказов, Make-интеграций и платежей"
     },
     {
       "id": 13,
@@ -3150,5 +3178,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 30
+  "public_repository_count": 31
 }
