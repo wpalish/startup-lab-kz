@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-25",
   "reference_count": 100,
-  "implemented_product_count": 28,
-  "reference_only_count": 72,
+  "implemented_product_count": 29,
+  "reference_only_count": 71,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "28 original bounded working products;72 references remain queued;source archives are not additional products",
+  "counts_explanation": "29 original bounded working products;71 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -650,6 +650,29 @@
       "references": [
         9
       ]
+    },
+    {
+      "slug": "qural-gate",
+      "title": "QuralGate",
+      "reference": 10,
+      "tests": 24,
+      "scope": "Типизированный синтетический вызов: контракт → проверка аргументов → независимое решение → ручной результат. Общая область · Синтетический sandbox · Без выполнения инструментов,AI,голоса и внешних записей",
+      "repository": "https://github.com/wpalish/qural-gate",
+      "commit": "8aeedc5de92b50b45b54bc308c3f2c04e169949f",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "8aeedc5de92b50b45b54bc308c3f2c04e169949f",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/qural-gate/actions/runs/40205510794"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/qural-gate.zip",
+      "name": "QuralGate",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        10
+      ]
     }
   ],
   "items": [
@@ -922,11 +945,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/qural-gate",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс QuralGate реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "qural-gate",
+      "repository": "https://github.com/wpalish/qural-gate",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/qural-gate.zip",
+      "scope": "Типизированный синтетический вызов: контракт → проверка аргументов → независимое решение → ручной результат. Общая область · Синтетический sandbox · Без выполнения инструментов,AI,голоса и внешних записей"
     },
     {
       "id": 11,
@@ -3094,5 +3122,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 28
+  "public_repository_count": 29
 }
