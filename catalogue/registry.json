@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-26",
   "reference_count": 100,
-  "implemented_product_count": 37,
-  "reference_only_count": 63,
+  "implemented_product_count": 38,
+  "reference_only_count": 62,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "37 original bounded working products;63 references remain queued;source archives are not additional products",
+  "counts_explanation": "38 original bounded working products;62 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -857,6 +857,29 @@
       "references": [
         19
       ]
+    },
+    {
+      "slug": "qabyl-desk",
+      "title": "QabylDesk",
+      "reference": 20,
+      "tests": 41,
+      "scope": "Опубликованный RU/KK пакет → адресная выдача → одна ручная отметка аккаунта. Только синтетические тексты;не доказательство чтения или электронная подпись. Серверная фильтрация собственных выдач;администратор видит всё. Без внешней отправки,файлов,AI,реальных документов и платежей. Одна локальная база;не полная tenant-изоляция.",
+      "repository": "https://github.com/wpalish/qabyl-desk",
+      "commit": "564107480e715cad01e3138bebaf6bc28d080652",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "564107480e715cad01e3138bebaf6bc28d080652",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/qabyl-desk/actions/runs/40309404828"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/qabyl-desk.zip",
+      "name": "QabylDesk",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        20
+      ]
     }
   ],
   "items": [
@@ -1409,11 +1432,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/qabyl-desk",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс QabylDesk реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "qabyl-desk",
+      "repository": "https://github.com/wpalish/qabyl-desk",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/qabyl-desk.zip",
+      "scope": "Опубликованный RU/KK пакет → адресная выдача → одна ручная отметка аккаунта. Только синтетические тексты;не доказательство чтения или электронная подпись. Серверная фильтрация собственных выдач;администратор видит всё. Без внешней отправки,файлов,AI,реальных документов и платежей. Одна локальная база;не полная tenant-изоляция."
     },
     {
       "id": 21,
@@ -3346,5 +3374,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 37
+  "public_repository_count": 38
 }
