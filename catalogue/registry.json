@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-26",
   "reference_count": 100,
-  "implemented_product_count": 38,
-  "reference_only_count": 62,
+  "implemented_product_count": 39,
+  "reference_only_count": 61,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "38 original bounded working products;62 references remain queued;source archives are not additional products",
+  "counts_explanation": "39 original bounded working products;61 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -880,6 +880,29 @@
       "references": [
         20
       ]
+    },
+    {
+      "slug": "qiyiq-frame",
+      "title": "QiyiqFrame",
+      "reference": 21,
+      "tests": 60,
+      "scope": "Одна фотография, явная геометрия и PNG с рецептом. Оригинальный ограниченный локальный инструмент. Нет AI, удаления фона, массовой обработки или проверки качества товара.,JPEG с EXIF и PNG с анимацией/eXIf не поддерживаются; сначала нужен плоский файл.,Сохранённый рецепт содержит метаданные; для открытия нужен тот же исходный файл.,Общая локальная область, не tenant-изоляция или сертификация безопасности.,Числовые размеры не означают одобрение маркетплейса.",
+      "repository": "https://github.com/wpalish/qiyiq-frame",
+      "commit": "b14b31ac5187543ea3274ddfc30120cef0ec0073",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "b14b31ac5187543ea3274ddfc30120cef0ec0073",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/qiyiq-frame/actions/runs/40326564571"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/qiyiq-frame.zip",
+      "name": "QiyiqFrame",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        21
+      ]
     }
   ],
   "items": [
@@ -1460,11 +1483,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/qiyiq-frame",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс QiyiqFrame реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "qiyiq-frame",
+      "repository": "https://github.com/wpalish/qiyiq-frame",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/qiyiq-frame.zip",
+      "scope": "Одна фотография, явная геометрия и PNG с рецептом. Оригинальный ограниченный локальный инструмент. Нет AI, удаления фона, массовой обработки или проверки качества товара.,JPEG с EXIF и PNG с анимацией/eXIf не поддерживаются; сначала нужен плоский файл.,Сохранённый рецепт содержит метаданные; для открытия нужен тот же исходный файл.,Общая локальная область, не tenant-изоляция или сертификация безопасности.,Числовые размеры не означают одобрение маркетплейса."
     },
     {
       "id": 22,
@@ -3374,5 +3402,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 38
+  "public_repository_count": 39
 }
