@@ -842,13 +842,13 @@
       "tests": 27,
       "scope": "Опубликованный план границ → полная синтетическая матрица образцов → неизменный отчёт и отдельное решение модели. Вымышленные целые значения · Общая область сотрудников · Не физическая проверка, сертификация или выпуск продукции",
       "repository": "https://github.com/wpalish/sapa-lot",
-      "commit": "b5de475aecd58b60effe960df267086341a78a31",
+      "commit": "967e51446dffde3591dbd61631a6d8394e50f7ef",
       "ci": {
         "conclusion": "success",
-        "headSha": "b5de475aecd58b60effe960df267086341a78a31",
+        "headSha": "967e51446dffde3591dbd61631a6d8394e50f7ef",
         "name": "Verify original workflow",
         "status": "completed",
-        "url": "https://github.com/wpalish/sapa-lot/actions/runs/40295164508"
+        "url": "https://github.com/wpalish/sapa-lot/actions/runs/40296137220"
       },
       "source": "https://wpalish.github.io/startup-lab-kz/downloads/sapa-lot.zip",
       "name": "SapaLot",
