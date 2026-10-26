@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-26",
   "reference_count": 100,
-  "implemented_product_count": 40,
-  "reference_only_count": 60,
+  "implemented_product_count": 41,
+  "reference_only_count": 59,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "40 original bounded working products;60 references remain queued;source archives are not additional products",
+  "counts_explanation": "41 original bounded working products;59 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -926,6 +926,29 @@
       "references": [
         22
       ]
+    },
+    {
+      "slug": "irik-list",
+      "title": "IrikList",
+      "reference": 23,
+      "tests": 58,
+      "scope": "Буквальные условия, вымышленные анкеты и неизменный короткий список с пояснениями. Только синтетические коды и объявленные метки; без настоящих авторов, статистики,AI или внешних сообщений.,Общая локальная область сотрудников; не tenant-изоляция и не сертификация безопасности.,Выбор не является приглашением,согласием,договором или оплатой.,JSON и журнал проверяют согласованность,не права,подлинность или историческую личность.",
+      "repository": "https://github.com/wpalish/irik-list",
+      "commit": "a14e7526fea0d8615734a7f6480fcdab537b8017",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "a14e7526fea0d8615734a7f6480fcdab537b8017",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/irik-list/actions/runs/40374908902"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/irik-list.zip",
+      "name": "IrikList",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        23
+      ]
     }
   ],
   "items": [
@@ -1562,11 +1585,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/irik-list",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс IrikList реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "irik-list",
+      "repository": "https://github.com/wpalish/irik-list",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/irik-list.zip",
+      "scope": "Буквальные условия, вымышленные анкеты и неизменный короткий список с пояснениями. Только синтетические коды и объявленные метки; без настоящих авторов, статистики,AI или внешних сообщений.,Общая локальная область сотрудников; не tenant-изоляция и не сертификация безопасности.,Выбор не является приглашением,согласием,договором или оплатой.,JSON и журнал проверяют согласованность,не права,подлинность или историческую личность."
     },
     {
       "id": 24,
@@ -3430,5 +3458,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 40
+  "public_repository_count": 41
 }
