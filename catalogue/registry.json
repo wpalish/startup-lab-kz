@@ -1,10 +1,10 @@
 {
   "as_of": "2026-10-26",
   "reference_count": 100,
-  "implemented_product_count": 39,
-  "reference_only_count": 61,
+  "implemented_product_count": 40,
+  "reference_only_count": 60,
   "related_mechanism_reference_count": 1,
-  "counts_explanation": "39 original bounded working products;61 references remain queued;source archives are not additional products",
+  "counts_explanation": "40 original bounded working products;60 references remain queued;source archives are not additional products",
   "products": [
     {
       "slug": "scopesum",
@@ -903,6 +903,29 @@
       "references": [
         21
       ]
+    },
+    {
+      "slug": "sahna-frame",
+      "title": "SahnaFrame",
+      "reference": 22,
+      "tests": 60,
+      "scope": "Один прозрачный PNG, три авторские геометрические сцены и явный экспорт выбранного варианта. Ручное размещение, без AI, удаления фона, массовой обработки или реальной фотосъёмки.,Только PNG с прозрачностью; сервер хранит общие метаданные, не изображение.,Рецепт открывается с тем же файлом; подписи и SHA256 не доказывают права, качество или подлинность.,Локальная общая область сотрудников, не tenant-изоляция или сертификация безопасности.",
+      "repository": "https://github.com/wpalish/sahna-frame",
+      "commit": "f6855cd81fa8f5ff31a646faa48f3bdad520acd1",
+      "ci": {
+        "conclusion": "success",
+        "headSha": "f6855cd81fa8f5ff31a646faa48f3bdad520acd1",
+        "name": "Verify original workflow",
+        "status": "completed",
+        "url": "https://github.com/wpalish/sahna-frame/actions/runs/40360105443"
+      },
+      "source": "https://wpalish.github.io/startup-lab-kz/downloads/sahna-frame.zip",
+      "name": "SahnaFrame",
+      "version": "0.1.0",
+      "status": "separate_repo_verified_workflow",
+      "references": [
+        22
+      ]
     }
   ],
   "items": [
@@ -1511,11 +1534,16 @@
       "additional_read_source": null,
       "evidence": "Прочитана публичная карточка Product Hunt; заявленные функции, без теста продукта.",
       "research_date": "2026-10-24",
-      "implementation_status": "reference_only",
-      "implementation_path": null,
+      "implementation_status": "original_bounded_v01_verified",
+      "implementation_path": "work/products/sahna-frame",
       "public_product_url": null,
       "competitor_defect_audit": "not_performed",
-      "notes": "Изучена публичная карточка. Самостоятельный аналог пока не реализован."
+      "notes": "Оригинальный ограниченный процесс SahnaFrame реализован и проверен. Исходные proposed-поля описывают исследовательскую идею, а фактический объём указан в scope. Не полная копия референса или промышленный SaaS.",
+      "status": "separate_repo_verified_workflow",
+      "product_slug": "sahna-frame",
+      "repository": "https://github.com/wpalish/sahna-frame",
+      "source_archive": "https://wpalish.github.io/startup-lab-kz/downloads/sahna-frame.zip",
+      "scope": "Один прозрачный PNG, три авторские геометрические сцены и явный экспорт выбранного варианта. Ручное размещение, без AI, удаления фона, массовой обработки или реальной фотосъёмки.,Только PNG с прозрачностью; сервер хранит общие метаданные, не изображение.,Рецепт открывается с тем же файлом; подписи и SHA256 не доказывают права, качество или подлинность.,Локальная общая область сотрудников, не tenant-изоляция или сертификация безопасности."
     },
     {
       "id": 23,
@@ -3402,5 +3430,5 @@
       "scope": "Администратор публикует цену услуги, фиксированную часть и границы количества. Посетитель вводит количество и получает сохранённый расчёт; сумма считается сервером, снимок старой цены сохраняется. Не заказ, не публичная оферта и не платёж; налоговые и договорные условия согласуются отдельно."
     }
   ],
-  "public_repository_count": 39
+  "public_repository_count": 40
 }
